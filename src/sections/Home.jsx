@@ -1,57 +1,36 @@
-// sections/Home.jsx
-export default function Home({ theme }) {
-  const skills = ["HTML", "CSS", "JavaScript", "React"];
-  const projects = [
-    { title: "Portfolio", description: "My personal portfolio", link: "#" },
-    { title: "E-Shop", description: "React + Tailwind project", link: "#" },
-    { title: "Blog", description: "Responsive blog layout", link: "#" },
-  ];
+import { VscGithubAlt } from 'react-icons/vsc';
+import { FaInstagram } from 'react-icons/fa';
+import { SiGmail } from 'react-icons/si';
+import { TbFileCv } from 'react-icons/tb';
 
+export default function Home() {
   return (
-    <div className="relative z-20 flex flex-col items-center justify-center min-h-screen px-6 text-center">
-      {/* Hero Section */}
-      <h1 className="text-4xl md:text-6xl font-bold mb-4 text-black dark:text-white">
-        Hi, I’m Irina
-      </h1>
-      <p className="text-lg md:text-2xl mb-6 text-gray-700 dark:text-gray-300">
-        Frontend Developer & Designer
-      </p>
-      <a
-        href="#projects"
-        className="px-6 py-3 rounded bg-purple-400 dark:bg-purple-700 text-white hover:scale-105 transition-transform"
-      >
-        View Projects
-      </a>
-
-      {/* Skills Section */}
-      <div className="flex flex-wrap justify-center mt-12 gap-6">
-        {skills.map((skill) => (
-          <div
-            key={skill}
-            className="px-4 py-2 bg-white dark:bg-gray-800 rounded shadow hover:scale-105 transition-transform text-black dark:text-white"
-          >
-            {skill}
-          </div>
-        ))}
+    <div className="flex flex-col gap-20 justify-center items-center h-screen ">
+      <div>
+        <h1 className="text-5xl uppercase mb-5">
+          Hi I am <span className="text-7xl">IRINA BOJKOVSKA,</span>
+        </h1>
+        <h3 className="text-3xl">a FRONTEND DEVELOPER & GRAPHIC DESIGNER</h3>
       </div>
+      <div className="flex gap-20">
+        <div>
+          {' '}
+          <button className="text-2xl">
+            <a href="#projects">SEE MY WORK</a>
+          </button>
+        </div>
 
-      {/* Projects Preview */}
-      <div
-        id="projects"
-        className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-6xl"
-      >
-        {projects.map((project) => (
-          <a
-            key={project.title}
-            href={project.link}
-            className="p-6 bg-white dark:bg-gray-800 rounded shadow hover:shadow-lg transition-shadow text-black dark:text-white"
-          >
-            <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-            <p className="text-gray-600 dark:text-gray-300">
-              {project.description}
-            </p>
+        <div className="inline-flex gap-4 text-2xl">
+          <a href="#">
+            <VscGithubAlt />
           </a>
-        ))}
+          <a href="#">
+            <FaInstagram />
+          </a>
+          <a href="#">
+            <TbFileCv />
+          </a>
+        </div>
       </div>
     </div>
   );

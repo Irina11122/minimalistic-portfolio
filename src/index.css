@@ -8,11 +8,22 @@
     -webkit-tap-highlight-color: transparent;
   }
 }
-body {
-    font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+
+:root {
+  --wp--preset--color--primary: #7c027c;
+  --wp--preset--color--secondary: #420142;
 }
+body {
+  position: relative;
+}
+
 button {
   cursor: pointer;
+}
+
+/*! Projects */
+
+#projects img {
+  height: 400px;
+  width: 40rem;
 }
