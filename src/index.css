@@ -15,6 +15,11 @@
 }
 body {
   position: relative;
+  overflow-x: hidden;
+}
+
+.dark body {
+  background: linear-gradient(145.98deg, #3c3c3c 32.45%, #121212 77.5%);
 }
 
 button {
@@ -26,4 +31,79 @@ button {
 #projects img {
   height: 400px;
   width: 40rem;
+}
+
+/* ! Header */
+
+.dark .dark-header {
+  background: linear-gradient(90deg, #6f6e6b 0%, #312f2d 100%);
+  color: #eeeeee;
+  box-shadow: 4px 17px 14.9px 8px #00000040;
+}
+
+/* !Home */
+
+.home-line {
+  position: absolute;
+  top: 0;
+  left: -25%;
+  rotate: -45deg;
+  width: 80%;
+  height: 40px;
+  background-color: azure;
+}
+
+.dark .home-line {
+  background: linear-gradient(
+    45deg,
+    #909090 -9321.82%,
+    #524e40 4640.6%,
+    #e0c36d 6337.69%
+  );
+}
+.other-home-line {
+  position: absolute;
+  top: 5%;
+  z-index: 100;
+  left: -12%;
+  rotate: -45deg;
+  width: 59%;
+  height: 59px;
+  background-color: azure;
+}
+.dark .other-home-line {
+  background: linear-gradient(
+    242deg,
+    #e3bf3d 26.45%,
+    #f2eaac 38.61%,
+    #b0942c 56.03%,
+    #524e40 68.58%
+  );
+}
+
+.bottom-home-line {
+  position: fixed;
+  bottom: 24%;
+  z-index: 100;
+  right: -12%;
+  rotate: -45deg;
+  width: 59%;
+  height: 79px;
+  background-color: azure;
+  z-index: 0;
+}
+
+.dark .bottom-home-line {
+  background: linear-gradient(
+    -45deg,
+    #caab38 3.2%,
+    #f2eaac 36.85%,
+    #e3bf3d 63.02%,
+    #968349 89.61%
+  );
+}
+.triangle {
+  width: 200px;
+  height: 100px;
+  aspect-ratio: 1;
 }

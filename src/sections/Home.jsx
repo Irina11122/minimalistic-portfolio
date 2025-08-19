@@ -9,6 +9,9 @@ export default function Home() {
       id="home"
       className="flex flex-col gap-20 justify-center items-center h-screen "
     >
+      <div className="home-line"></div> <div className="other-home-line"></div>
+      <div className="bottom-home-line"></div>
+      <div className="triangle"></div>
       <div>
         <h1 className="text-5xl uppercase mb-5 comfortaa-400 text-my-purple">
           Hi I am{' '}

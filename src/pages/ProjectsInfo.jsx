@@ -8,7 +8,7 @@ export default function ProjectsInfo() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get('../../public/projectsInfo.json').then((res) => {
+    axios.get('/projectsInfo.json').then((res) => {
       const data = res.data;
       const found = data.find((g) => g.id === parseInt(id));
       setInfo(found);
@@ -17,7 +17,7 @@ export default function ProjectsInfo() {
 
   if (!info) return <div>Loading...</div>;
   return (
-    <div className={info.background}>
+    <div className="md:h-screen" style={{ background: info.background }}>
       <img src={info.image} alt={info.title} />
       <p className="pt-40">{info.title}</p>
 
