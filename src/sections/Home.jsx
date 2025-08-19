@@ -5,33 +5,41 @@ import { TbFileCv } from 'react-icons/tb';
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-20 justify-center items-center h-screen ">
+    <section
+      id="home"
+      className="flex flex-col gap-20 justify-center items-center h-screen "
+    >
       <div>
-        <h1 className="text-5xl uppercase mb-5">
-          Hi I am <span className="text-7xl">IRINA BOJKOVSKA,</span>
+        <h1 className="text-5xl uppercase mb-5 comfortaa-400 text-my-purple">
+          Hi I am{' '}
+          <span className="text-7xl text-neon-purple comfortaa-700">
+            IRINA BOJKOVSKA,
+          </span>
         </h1>
-        <h3 className="text-3xl">a FRONTEND DEVELOPER & GRAPHIC DESIGNER</h3>
+        <h3 className="text-3xl text-gray-500">
+          a FRONTEND DEVELOPER & GRAPHIC DESIGNER
+        </h3>
       </div>
-      <div className="flex gap-20">
+      <div className="flex gap-20 text-gray-100">
         <div>
           {' '}
-          <button className="text-2xl">
+          <button className="text-2xl bg-my-purple p-10">
             <a href="#projects">SEE MY WORK</a>
           </button>
         </div>
 
-        <div className="inline-flex gap-4 text-2xl">
-          <a href="#">
-            <VscGithubAlt />
+        <div className="flex gap-8 text-2xl p-10 bg-gray-purple">
+          <a href="https://github.com/Irina11122">
+            <VscGithubAlt size={40} />
           </a>
           <a href="#">
-            <FaInstagram />
+            <FaInstagram size={40} />
           </a>
-          <a href="#">
-            <TbFileCv />
+          <a href="/complete-cv-irina.pdf">
+            <TbFileCv size={40} />
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

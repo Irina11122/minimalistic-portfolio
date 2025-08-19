@@ -10,7 +10,7 @@
     "videoUrl": "./GMV - Stand Alone.mp4",
     "poster": "https://upload.wikimedia.org/wikipedia/en/a/a7/God_of_War_4_cover.jpg",
     "description": "Embark on an epic open-world adventure as Link, exploring Hyrule and uncovering secrets to defeat Calamity Ganon.",
-    "category": "html"
+    "category": "react"
   },
   {
     "id": 2,
@@ -23,7 +23,7 @@
     "image": "https://wallpapers.com/images/hd/god-of-war-fearless-kratos-kpz0plia5ph22uvw.jpg",
     "poster": "https://upload.wikimedia.org/wikipedia/en/a/a7/God_of_War_4_cover.jpg",
     "description": "Join Kratos and his son Atreus on a powerful journey through Norse mythology filled with intense combat and emotional depth.",
-    "category": "js"
+    "category": "react"
   },
   {
     "id": 3,
@@ -37,11 +37,11 @@
     "live": "https://www.figma.com/proto/cXDeBWa36Xopj0PkZhKEYK/UrbanBrew-Coffee?node-id=0-1&t=upHcZLXKG1u85gJ3-1",
     "github": "",
     "description": "This is a complete web design for a specialty coffee brand. It includes a menu, blog, online shop,and contact section. The focus is on warm brown tones, elegant typography, and a clean, structured layout to create a professional and inviting look.",
-    "category": "js"
+    "category": "figma"
   },
   {
     "id": 4,
-    "title": "MOVIE WEBSITE",
+    "title": "GAME WEBSITE",
     "role": "RPG",
     "tech": "REACT , Express.js",
     "result": 2020,
@@ -50,7 +50,7 @@
     "image": "https://plus.unsplash.com/premium_photo-1674718013659-6930c469e641?fm=jpg&q=60&w=3000",
     "poster": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg",
     "description": "Step into Night City as V, a mercenary hacker in a dystopian world filled with cybernetic implants, danger, and corruption.",
-    "category": "js"
+    "category": "react"
   },
   {
     "id": 5,
@@ -62,7 +62,7 @@
     "image": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/5/13/1431520130189/8bfad8ae-5a24-4617-988e-ccafee83324f-1020x612.jpeg?width=700&quality=85&auto=format&fit=max&s=8a7d3e78ea1329d9442f2b175bc7eb14",
     "poster": "https://upload.wikimedia.org/wikipedia/en/0/0c/Witcher_3_cover_art.jpg",
     "description": "Play as Geralt of Rivia, a monster hunter for hire, in a rich fantasy world full of morally complex choices and epic quests.",
-    "category": "js"
+    "category": "react"
   },
   {
     "id": 6,
@@ -74,7 +74,7 @@
     "image": "https://www.candb.com/site/candb/images/artwork/elden-ring_bandai-namco.jpg",
     "poster": "https://upload.wikimedia.org/wikipedia/en/b/b9/Elden_Ring_Box_art.jpg",
     "description": "Journey through the Lands Between in a challenging open-world RPG crafted by FromSoftware and George R. R. Martin.",
-    "category": "js"
+    "category": "react"
   },
   {
     "id": 7,
@@ -86,7 +86,7 @@
     "image": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/Vanilla-PMP_Collection-Carousel-0_Buzzy-Bees_1280x768.jpg",
     "poster": "https://m.media-amazon.com/images/I/81-8ziQUvjL.jpg",
     "description": "Create, explore, and survive in a blocky, procedurally generated world where your only limit is your imagination.",
-    "category": "js"
+    "category": "figma"
   },
   {
     "id": 8,
@@ -98,7 +98,7 @@
     "image": "https://cdn2.unrealengine.com/ogc1s3-1920x1080-181f9f4e8a8e.jpg",
     "poster": "https://i.ebayimg.com/00/s/OTA3WDYzOA==/z/e4MAAOSw~mpfjvfI/$_57.PNG?set_id=8800005007",
     "description": "Build, battle, and survive in this fast-paced, stylized battle royale game that’s become a pop culture phenomenon.",
-    "category": "js"
+    "category": "figma"
   },
   {
     "id": 9,
@@ -122,6 +122,54 @@
     "image": "https://images.ladbible.com/resize?type=webp&quality=70&width=3840&fit=contain&gravity=auto&url=https://images.ladbiblegroup.com/v3/assets/bltbc1876152fcd9f07/blt23dbcb98a42db60e/67c059b8b152f37233b1bcee/HL.jpeg",
     "poster": "https://i.ebayimg.com/images/g/CcYAAOSwQK1j7izt/s-l1200.jpg",
     "description": "Step into the magical world of Harry Potter in this open-world RPG set in the 1800s, where your legacy is in your hands.",
-    "category": "figma"
+    "category": "js"
+  },
+  {
+    "id": 11,
+    "title": "SOCIAL LINKS PROFILE",
+    "role": "Action RPG",
+    "tech": "PC, PS4/5, Xbox, Switch",
+    "result": 2023,
+    "rating": 8.5,
+    "image": "https://images.ladbible.com/resize?type=webp&quality=70&width=3840&fit=contain&gravity=auto&url=https://images.ladbiblegroup.com/v3/assets/bltbc1876152fcd9f07/blt23dbcb98a42db60e/67c059b8b152f37233b1bcee/HL.jpeg",
+    "poster": "https://i.ebayimg.com/images/g/CcYAAOSwQK1j7izt/s-l1200.jpg",
+    "description": "Step into the magical world of Harry Potter in this open-world RPG set in the 1800s, where your legacy is in your hands.",
+    "category": "html"
+  },
+  {
+    "id": 12,
+    "title": "QR CODE",
+    "role": "Action RPG",
+    "tech": "PC, PS4/5, Xbox, Switch",
+    "result": 2023,
+    "rating": 8.5,
+    "image": "https://images.ladbible.com/resize?type=webp&quality=70&width=3840&fit=contain&gravity=auto&url=https://images.ladbiblegroup.com/v3/assets/bltbc1876152fcd9f07/blt23dbcb98a42db60e/67c059b8b152f37233b1bcee/HL.jpeg",
+    "poster": "https://i.ebayimg.com/images/g/CcYAAOSwQK1j7izt/s-l1200.jpg",
+    "description": "Step into the magical world of Harry Potter in this open-world RPG set in the 1800s, where your legacy is in your hands.",
+    "category": "html"
+  },
+  {
+    "id": 13,
+    "title": "BLOG PREVIEW CARD",
+    "role": "Action RPG",
+    "tech": "PC, PS4/5, Xbox, Switch",
+    "result": 2023,
+    "rating": 8.5,
+    "image": "https://images.ladbible.com/resize?type=webp&quality=70&width=3840&fit=contain&gravity=auto&url=https://images.ladbiblegroup.com/v3/assets/bltbc1876152fcd9f07/blt23dbcb98a42db60e/67c059b8b152f37233b1bcee/HL.jpeg",
+    "poster": "https://i.ebayimg.com/images/g/CcYAAOSwQK1j7izt/s-l1200.jpg",
+    "description": "Step into the magical world of Harry Potter in this open-world RPG set in the 1800s, where your legacy is in your hands.",
+    "category": "html"
+  },
+  {
+    "id": 14,
+    "title": "RECIPE PAGE",
+    "role": "Action RPG",
+    "tech": "PC, PS4/5, Xbox, Switch",
+    "result": 2023,
+    "rating": 8.5,
+    "image": "https://images.ladbible.com/resize?type=webp&quality=70&width=3840&fit=contain&gravity=auto&url=https://images.ladbiblegroup.com/v3/assets/bltbc1876152fcd9f07/blt23dbcb98a42db60e/67c059b8b152f37233b1bcee/HL.jpeg",
+    "poster": "https://i.ebayimg.com/images/g/CcYAAOSwQK1j7izt/s-l1200.jpg",
+    "description": "Step into the magical world of Harry Potter in this open-world RPG set in the 1800s, where your legacy is in your hands.",
+    "category": "html"
   }
 ]
