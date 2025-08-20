@@ -247,6 +247,29 @@ button {
     scale: 1.2;
   }
 }
+
+.ds {
+  color: #00d4fe4c;
+}
+.cards {
+  height: 300px;
+  overflow: hidden;
+}
+.projects-card {
+  width: 100%;
+  background-color: #47417d;
+  opacity: 90%;
+  transition: all 0.7s ease-in-out;
+  height: 130% !important;
+}
+.cards:hover .projects-card {
+  opacity: 50%;
+}
+.project-btn {
+  box-shadow: 0 0 10px #eee;
+  left: 10%;
+  transform: translate(50%, -50%);
+}
 .role-text {
   background: linear-gradient(to right, #ccc, rgb(80, 80, 80), #939393);
   -webkit-background-clip: text;

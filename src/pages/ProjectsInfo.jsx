@@ -30,9 +30,9 @@ export default function ProjectsInfo() {
       </header>
       <div className="flex flex-col">
         <div className="flex gap-9 px-5">
-          <div className="md:w-w-50% text-gray-purple">
+          <div className="md:w-w-50% ">
             <p className="text-2xl mb-4">{info.description}</p>
-            <p className="text-2xl text-gray-purple mb-7">
+            <p className="text-2xl mb-7">
               Role: <span className="text-neon-purple">{info.role}</span>
             </p>
             <ul className="text-2xl">
@@ -58,11 +58,7 @@ export default function ProjectsInfo() {
             </div>
           </div>
           <div className="md:w-w-50% flex flex-col items-center h-screen justify-start">
-            <img
-              src={info.image}
-              alt={info.title}
-              className="w-full border border-black mb-10"
-            />
+            <img src={info.image} alt={info.title} className="w-full rounded mb-10" />
             <div>
               {info.links.map((link, i) => {
                 return (

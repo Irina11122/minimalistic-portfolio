@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "TODO APP",
-    "background": "#CDC8FF",
+    "background": "#7372D6",
     "description": "A modern and dynamic task management web application built with React. Complete user experience with registration, login, task management, and secure JWT authentication.",
     "role": "Frontend Developer",
     "tech": ["REACT", "CSS", "FORMIK", "SWR", "JWT", "REACT-ICONS", "FIGMA"],
@@ -15,7 +15,7 @@
       "Clean and minimalistic UI with light & dark theme support"
     ],
     "color": "#000",
-    "secondarycolor": "#8477FA",
+    "secondarycolor": "#B1AAF0",
     "links": [
       {
         "type": "github",
@@ -34,7 +34,7 @@
   {
     "id": 2,
     "title": "MATRIX PORTFOLIO",
-    "background": "#458d63",
+    "background": "#000",
     "description": "A Matrix-inspired portfolio with React, 3D elements using React Three Fiber, modern animations, and a functional language switcher.",
     "role": "Frontend Developer / UX/UI Designer",
     "tech": [
@@ -61,8 +61,8 @@
       "Interactive 3D elements",
       "Clean and minimalistic UI with light & dark theme support"
     ],
-    "color": "#eee",
-    "secondarycolor": "#8cddaeac",
+    "color": "#E3E3E3",
+    "secondarycolor": "#892AE1",
     "links": [
       {
         "type": "github",
@@ -81,7 +81,7 @@
   {
     "id": 3,
     "title": "KOKO LOUNGE BAR",
-    "background": "#FFD700",
+    "background": "#262626",
     "description": "A modern and elegant website for KOKO Lounge Bar. Showcasing menu, events, and atmosphere with clean design and smooth animations.",
     "role": "Frontend Developer / UX/UI Designer",
     "tech": [
@@ -95,13 +95,14 @@
     ],
     "category": ["react", "figma"],
     "image": "/projects/sww.png",
+    "color": "#F9EABC",
     "features": [
       "Modern and fully responsive design",
       "Smooth animations with Framer Motion and GSAP",
       "Interactive menu and event sections",
       "Clean UI inspired by restaurant branding"
     ],
-    "secondarycolor": "#FF4500",
+    "secondarycolor": "#040000",
     "links": [
       {
         "type": "github",
@@ -125,7 +126,8 @@
     "role": "Frontend Developer",
     "tech": ["REACT", "VITE", "CSS", "ADVICE SLIP API"],
     "category": ["react", "api"],
-    "image": "/projects/advice-generator.png",
+    "image": "/projects/advice.png",
+    "color": "#012201",
     "features": [
       "Fetches random advice from an external API",
       "Responsive design for all devices",
@@ -145,19 +147,20 @@
   },
   {
     "id": 5,
-    "title": "City Information Final Project",
-    "background": "#6a11cb",
+    "title": "City Information",
+    "background": "#000200",
     "description": "Website displaying details about various cities including population, area, and landmarks.",
     "role": "Frontend Developer",
     "tech": ["HTML", "CSS", "JAVASCRIPT"],
     "category": ["html", "css", "javascript"],
-    "image": "/projects/city-information.png",
+    "image": "/projects/city.png",
+    "color": "#00D3FE",
     "features": [
       "Displays city information dynamically",
       "Interactive UI with hover effects",
       "Responsive layout for mobile and desktop"
     ],
-    "secondarycolor": "#2575fc",
+    "secondarycolor": "#00d4fe4c",
     "links": [
       {
         "type": "github",
@@ -172,18 +175,19 @@
   {
     "id": 6,
     "title": "Product Preview Card Component",
-    "background": "#ff6a00",
+    "background": "#F2EBE3",
     "description": "Frontend Mentor challenge solution: product preview card with hover effects and responsive design.",
     "role": "Frontend Developer",
     "tech": ["HTML", "CSS"],
     "category": ["html", "css"],
     "image": "/projects/perfume.png",
+    "color": "#3C8067",
     "features": [
       "Hover effects on product image",
       "Responsive design for various screen sizes",
       "Clean and modern UI"
     ],
-    "secondarycolor": "#ee0979",
+    "secondarycolor": "#fff",
     "links": [
       {
         "type": "github",
@@ -198,18 +202,19 @@
   {
     "id": 7,
     "title": "Space Tourism Multi-Page Website",
-    "background": "#00c6ff",
+    "background": "#0B0E17",
     "description": "Multi-page Space Tourism website with animations, modern design, and responsive layout.",
     "role": "Frontend Developer",
     "tech": ["HTML", "CSS", "JAVASCRIPT"],
     "category": ["html", "css", "javascript"],
     "image": "/projects/space.png",
+    "color": "#B4B6BC",
     "features": [
       "Multiple pages with smooth transitions",
       "Responsive design for all devices",
       "Modern UI with space-themed visuals"
     ],
-    "secondarycolor": "#0072ff",
+    "secondarycolor": "#746D64",
     "links": [
       {
         "type": "github",
@@ -224,18 +229,19 @@
   {
     "id": 8,
     "title": "Social Links Profile",
-    "background": "#ff512f",
+    "background": "#141414",
     "description": "Profile page showing social links with clean UI and hover effects.",
     "role": "Frontend Developer",
     "tech": ["HTML", "CSS"],
     "category": ["html", "css"],
     "image": "/projects/social-media.png",
+    "color": "#C5F82A",
     "features": [
       "Hover effects on social icons",
       "Responsive design for all devices",
       "Clean and modern UI"
     ],
-    "secondarycolor": "#dd2476",
+    "secondarycolor": "#333333",
     "links": [
       {
         "type": "github",
@@ -250,18 +256,19 @@
   {
     "id": 9,
     "title": "Car Website",
-    "background": "#1e3c72",
+    "background": "#031823",
     "description": "Responsive car dealership website with clean layout and interactive sections.",
     "role": "Frontend Developer",
     "tech": ["HTML", "CSS", "JAVASCRIPT"],
     "category": ["html", "css", "javascript"],
-    "image": "/projects/car-website.png",
+    "image": "/projects/car.png",
+    "color": "#F8FCFC",
     "features": [
       "Responsive layout",
       "Interactive UI sections",
       "Modern design inspired by car dealership websites"
     ],
-    "secondarycolor": "#2a5298",
+    "secondarycolor": "#0C4C6F",
     "links": [
       {
         "type": "github",
@@ -276,18 +283,19 @@
   {
     "id": 10,
     "title": "Blog Preview Card",
-    "background": "#ffafbd",
+    "background": "#F6D050",
     "description": "Frontend Mentor challenge: Blog preview card with modern design and responsive layout.",
     "role": "Frontend Developer",
     "tech": ["HTML", "CSS"],
     "category": ["html", "css"],
-    "image": "/projects/blog-preview-card.png",
+    "image": "/projects/card.png",
+    "color": "#012201",
     "features": [
       "Responsive layout",
       "Hover effects on blog images",
       "Clean and modern UI"
     ],
-    "secondarycolor": "#ffc3a0",
+    "secondarycolor": "#FFFFFF",
     "links": [
       {
         "type": "github",
@@ -302,18 +310,19 @@
   {
     "id": 11,
     "title": "QR Code Card With Bootstrap",
-    "background": "#4facfe",
+    "background": "#D6E2F0",
     "description": "A QR Code card project built using Bootstrap, responsive and modern UI.",
     "role": "Frontend Developer",
     "tech": ["HTML", "CSS", "BOOTSTRAP"],
     "category": ["html", "css", "bootstrap"],
     "image": "/projects/qr.png",
+    "color": "#012201",
     "features": [
       "Responsive layout",
       "Bootstrap based design",
       "Clean and minimalistic UI"
     ],
-    "secondarycolor": "#00f2fe",
+    "secondarycolor": "#2C7DFA",
     "links": [
       {
         "type": "github",
@@ -328,18 +337,19 @@
   {
     "id": 12,
     "title": "Base Apparel Coming Soon Page",
-    "background": "#ff4e00",
+    "background": "#FFF7F7",
     "description": "Frontend Mentor solution for a coming soon page with Flexbox layout.",
     "role": "Frontend Developer",
     "tech": ["HTML", "CSS", "FLEXBOX"],
     "category": ["html", "css"],
     "image": "/projects/base.png",
+    "color": "#534646",
     "features": [
       "Responsive Flexbox layout",
       "Clean minimalistic UI",
       "Countdown timer and email input"
     ],
-    "secondarycolor": "#f9d423",
+    "secondarycolor": "#F4ABAB",
     "links": [
       {
         "type": "github",
@@ -354,18 +364,19 @@
   {
     "id": 13,
     "title": "Recipe Page",
-    "background": "#ff9966",
+    "background": "#F3E6D8",
     "description": "A recipe website showcasing various dishes with clean layout and images.",
     "role": "Frontend Developer",
     "tech": ["HTML", "CSS"],
     "category": ["html", "css"],
     "image": "/projects/recipe.png",
+    "color": "#012201",
     "features": [
       "Clean layout with recipe cards",
       "Responsive design",
       "Images and hover effects"
     ],
-    "secondarycolor": "#ff5e62",
+    "secondarycolor": "#FFF5FA",
     "links": [
       {
         "type": "github",
@@ -379,79 +390,55 @@
   },
   {
     "id": 14,
-    "title": "ZFK Borec Project",
-    "background": "#11998e",
-    "description": "A project for ZFK Borec club website with clean responsive layout and modern design.",
-    "role": "Frontend Developer",
-    "tech": ["HTML", "CSS", "JAVASCRIPT"],
-    "category": ["html", "css", "javascript"],
-    "image": "/projects/zfk-borec.png",
-    "features": [
-      "Responsive layout for all devices",
-      "Modern UI inspired by sports websites",
-      "Interactive sections"
-    ],
-    "secondarycolor": "#38ef7d",
-    "links": [
-      {
-        "type": "github",
-        "url": "https://github.com/Irina11122/ZFK-Borec-Project"
-      },
-      {
-        "type": "live-demo",
-        "url": "https://irina11122.github.io/ZFK-Borec-Project/"
-      }
-    ]
-  },
-  {
-    "id": 15,
     "title": "PET ADOPTION DESIGN",
-    "background": "#11998e",
+    "background": "#DCC2AA",
     "description": "A project for ZFK Borec club website with clean responsive layout and modern design.",
     "role": "Frontend Developer",
     "tech": ["HTML", "CSS", "JAVASCRIPT"],
     "category": ["figma"],
     "image": "/projects/pe.png",
+    "color": "#444444",
     "features": [
       "Responsive layout for all devices",
       "Modern UI inspired by sports websites",
       "Interactive sections"
     ],
-    "secondarycolor": "#38ef7d",
+    "secondarycolor": "#FBB075",
     "links": [
       {
-        "type": "github",
-        "url": "https://github.com/Irina11122/ZFK-Borec-Project"
+        "type": "figma",
+        "url": "https://www.figma.com/design/n94NNzJivOivdpFjzpFgdt/Untitled?node-id=0-1&t=cFWRZf3klqTYbxcQ-1"
       },
       {
         "type": "live-demo",
-        "url": "https://irina11122.github.io/ZFK-Borec-Project/"
+        "url": "https://www.figma.com/proto/vXeqO6HIitqMjzPZHwToJ7/Untitled?node-id=20-110&t=b0UGyjrX84hyilwP-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=20%3A110"
       }
     ]
   },
   {
     "id": 15,
     "title": "URBANBREW COFFEE",
-    "background": "#11998e",
+    "background": "#B1987E",
     "description": "A project for ZFK Borec club website with clean responsive layout and modern design.",
     "role": "Frontend Developer",
     "tech": ["HTML", "CSS", "JAVASCRIPT"],
     "category": ["figma"],
     "image": "/projects/urbanbrew-coffee.png",
+    "color": "#211716",
     "features": [
       "Responsive layout for all devices",
       "Modern UI inspired by sports websites",
       "Interactive sections"
     ],
-    "secondarycolor": "#38ef7d",
+    "secondarycolor": "#D9C580",
     "links": [
       {
-        "type": "github",
-        "url": "https://github.com/Irina11122/ZFK-Borec-Project"
+        "type": "figma",
+        "url": "https://www.figma.com/design/cXDeBWa36Xopj0PkZhKEYK/UrbanBrew-Coffee?node-id=0-1&t=odelq2kaOENj6E6V-1-1"
       },
       {
         "type": "live-demo",
-        "url": "https://irina11122.github.io/ZFK-Borec-Project/"
+        "url": "https://www.figma.com/proto/cXDeBWa36Xopj0PkZhKEYK/UrbanBrew-Coffee?node-id=3-22&t=odelq2kaOENj6E6V-1&starting-point-node-id=3%3A22&show-proto-sidebar=1&scaling=scale-down&content-scaling=fixed"
       }
     ]
   }

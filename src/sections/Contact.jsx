@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import {
   FaLinkedin,
   FaGithub,
@@ -5,8 +6,43 @@ import {
   FaSearchLocation,
 } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    subject: '',
+    message: '',
+  });
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .send(
+        'service_2visr7w',
+        'template_fd53vuf',
+        formData,
+        'ZPNYnulK5shweSdIE',
+      )
+      .then(
+        (res) => {
+          console.log('Form submitted:', formData);
+          alert('Message sent successfully!');
+          setFormData({ name: '', email: '', subject: '', message: '' });
+        },
+        (err) => {
+          console.error('FAILED...', err);
+          alert('Failed to send message. Try again later.');
+        },
+      );
+  };
+
   return (
     <section
       id="contact"
@@ -38,25 +74,40 @@ export default function Contact() {
         </div>
       </div>
 
-      <form className="flex flex-col gap-4 w-full max-w-xl bg-white p-8 rounded-lg shadow-md">
+      <form
+        onSubmit={handleSubmit}
+        className="flex flex-col gap-4 w-full max-w-xl bg-white p-8 rounded-lg shadow-md"
+      >
         <input
           type="text"
+          name="name"
           placeholder="Your Name"
-          className="p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-purple-400"
+          value={formData.name}
+          onChange={handleChange}
+          className="p-3 border rounded focus:ring-2 focus:ring-purple-400"
         />
         <input
           type="email"
+          name="email"
           placeholder="Your Email"
-          className="p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-purple-400"
+          value={formData.email}
+          onChange={handleChange}
+          className="p-3 border rounded focus:ring-2 focus:ring-purple-400"
         />
         <input
           type="text"
+          name="subject"
           placeholder="Subject"
-          className="p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-purple-400"
+          value={formData.subject}
+          onChange={handleChange}
+          className="p-3 border rounded focus:ring-2 focus:ring-purple-400"
         />
         <textarea
+          name="message"
           placeholder="Message"
-          className="p-3 border border-gray-300 rounded h-32 resize-none focus:outline-none focus:ring-2 focus:ring-purple-400"
+          value={formData.message}
+          onChange={handleChange}
+          className="p-3 border rounded h-32 resize-none focus:ring-2 focus:ring-purple-400"
         ></textarea>
         <button
           type="submit"
@@ -72,14 +123,14 @@ export default function Contact() {
           target="_blank"
           className="text-purple-700 hover:text-purple-900 text-2xl"
         >
-          <FaGithub />
+          <FaGithub size={50} />
         </a>
         <a
           href="https://www.linkedin.com/in/irina-bojkovska-iri17/"
           target="_blank"
           className="text-purple-700 hover:text-purple-900 text-2xl"
         >
-          <FaLinkedin />
+          <FaLinkedin size={50} />
         </a>
       </div>
     </section>

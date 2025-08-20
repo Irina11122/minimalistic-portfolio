@@ -27,7 +27,7 @@ export default function Projects() {
         All
       </button>
 
-      <div className="flex justify-evenly md:flex-row flex-col mb-20 mt-20 z-20">
+      <div className="flex justify-evenly md:flex-row md:gap-0 gap-5 flex-col mb-20 mt-20 z-20">
         <button
           onClick={() => filterData('html')}
           className="border border-black p-10 bg-dark-purple"
@@ -53,15 +53,24 @@ export default function Projects() {
       <div className="flex md:flex-row flex-col flex-wrap gap-10 p-10">
         {filteredInfo.map((info, index) => {
           return (
-            <div key={index} className="md:w-w-30% md:h-72 bg-red-100 relative">
-              <h1> {info.title} </h1>{' '}
-              <div className="absolute bg-black/50 h-44 top-0"></div>
+            <div
+              key={index}
+              className="md:w-w-30%  bg-red-100 relative mb-20 cards"
+            >
+              <h1 className="z-20 absolute text-2xl top-3 left-10 text-gray-50">
+                {' '}
+                {info.title}{' '}
+              </h1>{' '}
+              <div className="absolute projects-card md:h-80 z-10 top-0 blur"></div>
               <img
                 src={info.image}
                 alt={info.title}
                 className="absolute top-0 left-0 h-44"
               />
-              <button onClick={() => navigate(`/info/${info.id}`)}>
+              <button
+                onClick={() => navigate(`/info/${info.id}`)}
+                className="z-20 absolute text-my-purple bg-gray-purple p-5 px-10 border shadow-white bottom-0 project-btn text-2xl"
+              >
                 See more
               </button>
             </div>
