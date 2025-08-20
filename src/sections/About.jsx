@@ -42,25 +42,32 @@ export default function About() {
     },
   ];
   return (
-    <section id="abput" className="md:h-screen">
+    <section id="about" className="md:h-screen">
       <h1>About me</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum cumque
-        aliquid sapiente voluptatibus dolor accusamus, autem atque corrupti
-        sunt, quo cum asperiores hic, totam rem? Reprehenderit voluptatibus
-        cupiditate doloribus dicta maxime! Delectus, aspernatur. Alias nulla
-        qui, placeat eos laboriosam facilis magnam esse molestiae fuga
-        reprehenderit odit consectetur modi? Ad, placeat!
+        <p>
+          Hi! I'm Irina, a Frontend Developer with a background in Graphic
+          Design. I love creating interactive, modern, and responsive web
+          experiences. My toolkit includes React, Three.js, Tailwind CSS, and
+          more. When I'm not coding, you can find me drawing or hanging out with
+          my pets.
+        </p>
       </p>
       <div className="tech-stack-container flex flex-wrap justify-center items-center gap-20 relative">
         {techStack.map((tech, i) => {
           return (
             <div
               key={i}
-              className="tech-stack bg-gray-100 md:w-52 md:h-52 flex justify-center items-center "
+              className="tech-stack relative bg-gray-100 md:w-40 md:h-40 flex justify-center items-center rounded-lg shadow-md hover:shadow-xl cursor-pointer"
             >
-              <img src={tech.img} alt={tech.name} />
-              <h1 className="absolute"> {tech.name} </h1>
+              <img
+                src={tech.img}
+                alt={tech.name}
+                className="w-20 h-20 md:w-24 md:h-24"
+              />
+              <h1 className="absolute text-black font-bold text-lg opacity-0 hover:opacity-100">
+                {tech.name}
+              </h1>
             </div>
           );
         })}

@@ -11,21 +11,24 @@ export default function Projects() {
     setFilteredInfo(projectsData);
   }, []);
   const filterData = (category) => {
-    const filtered = info.filter((f) => f.category === category);
     if (category === 'All') {
       setFilteredInfo(info);
     } else {
+      const filtered = info.filter((f) => f.category.includes(category));
       setFilteredInfo(filtered);
     }
   };
   return (
-    <section id="projects">
-      <h1>See my projects</h1>
-      <button onClick={() => filterData('All')} className="float-end">
+    <section id="projects" className="z-20">
+      <h1 className="md:text-4xl uppercase">See my projects</h1>
+      <button
+        onClick={() => filterData('All')}
+        className="float-end bg-my-purple p-5 px-10 border-black border"
+      >
         All
       </button>
       {/* figma css js buttons */}
-      <div className="flex justify-evenly mb-20 mt-20">
+      <div className="flex justify-evenly md:flex-row flex-col mb-20 mt-20 z-20">
         <button
           onClick={() => filterData('html')}
           className="border border-black p-10"
@@ -51,7 +54,7 @@ export default function Projects() {
       <div className="flex md:flex-row flex-col flex-wrap gap-10 p-10">
         {filteredInfo.map((info, index) => {
           return (
-            <div key={index} className="md:w-52 md:h-52 bg-red-100">
+            <div key={index} className="md:w-w-30% md:h-72 bg-red-100">
               <h1> {info.title} </h1>
 
               <button onClick={() => navigate(`/info/${info.id}`)}>

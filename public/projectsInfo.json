@@ -2,188 +2,457 @@
   {
     "id": 1,
     "title": "TODO APP",
-    "background": "#513EA1",
+    "background": "#CDC8FF",
+    "description": "A modern and dynamic task management web application built with React. Complete user experience with registration, login, task management, and secure JWT authentication.",
     "role": "Frontend Developer",
-    "tech": "REACT",
-    "result": "",
-    "rating": 9.8,
+    "tech": ["REACT", "CSS", "FORMIK", "SWR", "JWT", "REACT-ICONS", "FIGMA"],
+    "category": ["react", "figma"],
     "image": "/projects/todo-dashboard.png",
-    "videoUrl": "./GMV - Stand Alone.mp4",
-    "poster": "https://upload.wikimedia.org/wikipedia/en/a/a7/God_of_War_4_cover.jpg",
-    "description": "Embark on an epic open-world adventure as Link, exploring Hyrule and uncovering secrets to defeat Calamity Ganon.",
-    "category": "react"
+    "features": [
+      "Modern and fully responsive design",
+      "Registration and login with secure JWT authentication",
+      "Add, edit, delete, and mark tasks as completed",
+      "Clean and minimalistic UI with light & dark theme support"
+    ],
+    "color": "#000",
+    "secondarycolor": "#8477FA",
+    "links": [
+      {
+        "type": "github",
+        "url": "https://github.com/Irina11122/Finalen-Proekt-React/tree/main"
+      },
+      {
+        "type": "figma",
+        "url": "https://www.figma.com/design/MocZQND83f04dFE4pl46NY/Untitled?node-id=1-2&t=CoArJEjmV3l8gjjx-1"
+      },
+      {
+        "type": "live-demo",
+        "url": "https://irina11122.github.io/Finalen-Proekt-React/"
+      }
+    ]
   },
   {
     "id": 2,
     "title": "MATRIX PORTFOLIO",
-    "background": "#cccccc",
-    "role": "Action",
-    "tech": "REACT",
-    "result": 2018,
-    "rating": 9.6,
-    "videoUrl": "./GOD OF WAR _ Kratos.mp4",
-    "image": "https://wallpapers.com/images/hd/god-of-war-fearless-kratos-kpz0plia5ph22uvw.jpg",
-    "poster": "https://upload.wikimedia.org/wikipedia/en/a/a7/God_of_War_4_cover.jpg",
-    "description": "Join Kratos and his son Atreus on a powerful journey through Norse mythology filled with intense combat and emotional depth.",
-    "category": "react"
+    "background": "#458d63",
+    "description": "A Matrix-inspired portfolio with React, 3D elements using React Three Fiber, modern animations, and a functional language switcher.",
+    "role": "Frontend Developer / UX/UI Designer",
+    "tech": [
+      "REACT",
+      "TAILWIND CSS",
+      "FRAMER-MOTION",
+      "GSAP",
+      "REACT-THREE-FIBER",
+      "DREI",
+      "THREE",
+      "THREE-STDLIB",
+      "THREE-MESH-BVH",
+      "REACT-ICONS",
+      "REACT-SCROLL",
+      "REACT-SIMPLE-TYPEWRITER",
+      "I18NEXT",
+      "FIGMA"
+    ],
+    "category": ["react", "figma"],
+    "image": "/projects/matrix-portfolio.png",
+    "features": [
+      "Modern and fully responsive design",
+      "Functional language switcher",
+      "Interactive 3D elements",
+      "Clean and minimalistic UI with light & dark theme support"
+    ],
+    "color": "#eee",
+    "secondarycolor": "#8cddaeac",
+    "links": [
+      {
+        "type": "github",
+        "url": "https://github.com/Irina11122/frontend-portfolio"
+      },
+      {
+        "type": "figma",
+        "url": "https://www.figma.com/design/MocZQND83f04dFE4pl46NY/Untitled?node-id=1-2&t=CoArJEjmV3l8gjjx-1"
+      },
+      {
+        "type": "live-demo",
+        "url": "https://irina11122.github.io/Finalen-Proekt-React/"
+      }
+    ]
   },
   {
     "id": 3,
-    "title": "URBAN BREW COFFEE",
-    "role": "UX/UI Designer",
-    "background": "#cccccc",
-    "tech": "FIGMA",
-    "result": "A functional food ordering web app that looks clean and intuitive while being easy to use.",
-    "features": "Menu and sections designed for easy browsing and intuitive flow.",
-    "videoUrl": "./Arthur Morgan _ REDEMPTION.mp4",
-    "image": "/projects/urbanbrew-coffee.png",
-    "live": "https://www.figma.com/proto/cXDeBWa36Xopj0PkZhKEYK/UrbanBrew-Coffee?node-id=0-1&t=upHcZLXKG1u85gJ3-1",
-    "github": "",
-    "description": "This is a complete web design for a specialty coffee brand. It includes a menu, blog, online shop,and contact section. The focus is on warm brown tones, elegant typography, and a clean, structured layout to create a professional and inviting look.",
-    "category": "figma"
+    "title": "KOKO LOUNGE BAR",
+    "background": "#FFD700",
+    "description": "A modern and elegant website for KOKO Lounge Bar. Showcasing menu, events, and atmosphere with clean design and smooth animations.",
+    "role": "Frontend Developer / UX/UI Designer",
+    "tech": [
+      "REACT",
+      "TAILWIND CSS",
+      "FRAMER-MOTION",
+      "GSAP",
+      "REACT-ICONS",
+      "REACT-SCROLL",
+      "FIGMA"
+    ],
+    "category": ["react", "figma"],
+    "image": "/projects/koko-lounge-bar.png",
+    "features": [
+      "Modern and fully responsive design",
+      "Smooth animations with Framer Motion and GSAP",
+      "Interactive menu and event sections",
+      "Clean UI inspired by restaurant branding"
+    ],
+    "secondarycolor": "#FF4500",
+    "links": [
+      {
+        "type": "github",
+        "url": "https://github.com/Irina11122/KOKO-LOUNGE-BAR"
+      },
+      {
+        "type": "figma",
+        "url": "https://www.figma.com/file/Your-Figma-Link"
+      },
+      {
+        "type": "live-demo",
+        "url": "https://irina11122.github.io/KOKO-LOUNGE-BAR/"
+      }
+    ]
   },
   {
     "id": 4,
-    "title": "GAME WEBSITE",
-    "role": "RPG",
-    "background": "#cccccc",
-    "tech": "REACT , Express.js",
-    "result": 2020,
-    "rating": 7.8,
-    "videoUrl": "./Cyberpunk 2077 _ Fading.mp4",
-    "image": "https://plus.unsplash.com/premium_photo-1674718013659-6930c469e641?fm=jpg&q=60&w=3000",
-    "poster": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg",
-    "description": "Step into Night City as V, a mercenary hacker in a dystopian world filled with cybernetic implants, danger, and corruption.",
-    "category": "react"
+    "title": "ADVICE GENERATOR API",
+    "background": "#ff7e5f",
+    "description": "React app fetching random advice from the Advice Slip API with smooth UI updates.",
+    "role": "Frontend Developer",
+    "tech": ["REACT", "VITE", "CSS", "ADVICE SLIP API"],
+    "category": ["react", "api"],
+    "image": "/projects/advice-generator.png",
+    "features": [
+      "Fetches random advice from an external API",
+      "Responsive design for all devices",
+      "Smooth animations on button click"
+    ],
+    "secondarycolor": "#feb47b",
+    "links": [
+      {
+        "type": "github",
+        "url": "https://github.com/Irina11122/ADVICE-GENERATOR-API"
+      },
+      {
+        "type": "live-demo",
+        "url": "https://irina11122.github.io/ADVICE-GENERATOR-API/"
+      }
+    ]
   },
   {
     "id": 5,
-    "title": "KOKO",
-    "role": "REACT",
-    "background": "#cccccc",
-    "tech": "PC, PS4, Xbox One, Switch",
-    "result": 2015,
-    "rating": 9.9,
-    "image": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/5/13/1431520130189/8bfad8ae-5a24-4617-988e-ccafee83324f-1020x612.jpeg?width=700&quality=85&auto=format&fit=max&s=8a7d3e78ea1329d9442f2b175bc7eb14",
-    "poster": "https://upload.wikimedia.org/wikipedia/en/0/0c/Witcher_3_cover_art.jpg",
-    "description": "Play as Geralt of Rivia, a monster hunter for hire, in a rich fantasy world full of morally complex choices and epic quests.",
-    "category": "react"
+    "title": "City Information Final Project",
+    "background": "#6a11cb",
+    "description": "Website displaying details about various cities including population, area, and landmarks.",
+    "role": "Frontend Developer",
+    "tech": ["HTML", "CSS", "JAVASCRIPT"],
+    "category": ["html", "css", "javascript"],
+    "image": "/projects/city-information.png",
+    "features": [
+      "Displays city information dynamically",
+      "Interactive UI with hover effects",
+      "Responsive layout for mobile and desktop"
+    ],
+    "secondarycolor": "#2575fc",
+    "links": [
+      {
+        "type": "github",
+        "url": "https://github.com/Irina11122/City-Information-Final-Project-"
+      },
+      {
+        "type": "live-demo",
+        "url": "https://irina11122.github.io/City-Information-Final-Project/"
+      }
+    ]
   },
   {
     "id": 6,
-    "title": "ADVIDE GENERATOR",
-    "role": "REACT",
-    "background": "#cccccc",
-    "tech": "PC, PS4, PS5, Xbox",
-    "result": 2022,
-    "rating": 9.5,
-    "image": "https://www.candb.com/site/candb/images/artwork/elden-ring_bandai-namco.jpg",
-    "poster": "https://upload.wikimedia.org/wikipedia/en/b/b9/Elden_Ring_Box_art.jpg",
-    "description": "Journey through the Lands Between in a challenging open-world RPG crafted by FromSoftware and George R. R. Martin.",
-    "category": "react"
+    "title": "Product Preview Card Component",
+    "background": "#ff6a00",
+    "description": "Frontend Mentor challenge solution: product preview card with hover effects and responsive design.",
+    "role": "Frontend Developer",
+    "tech": ["HTML", "CSS"],
+    "category": ["html", "css"],
+    "image": "/projects/product-preview-card.png",
+    "features": [
+      "Hover effects on product image",
+      "Responsive design for various screen sizes",
+      "Clean and modern UI"
+    ],
+    "secondarycolor": "#ee0979",
+    "links": [
+      {
+        "type": "github",
+        "url": "https://github.com/Irina11122/Product-preview-card-component-SOLUTION"
+      },
+      {
+        "type": "live-demo",
+        "url": "https://irina11122.github.io/Product-preview-card-component-SOLUTION/"
+      }
+    ]
   },
   {
     "id": 7,
-    "title": "PET ADOPTION",
-    "role": "Sandbox",
-    "background": "#cccccc",
-    "tech": "PC, Consoles, Mobile",
-    "result": 2011,
-    "rating": 9.3,
-    "image": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/Vanilla-PMP_Collection-Carousel-0_Buzzy-Bees_1280x768.jpg",
-    "poster": "https://m.media-amazon.com/images/I/81-8ziQUvjL.jpg",
-    "description": "Create, explore, and survive in a blocky, procedurally generated world where your only limit is your imagination.",
-    "category": "figma"
+    "title": "Space Tourism Multi-Page Website",
+    "background": "#00c6ff",
+    "description": "Multi-page Space Tourism website with animations, modern design, and responsive layout.",
+    "role": "Frontend Developer",
+    "tech": ["HTML", "CSS", "JAVASCRIPT"],
+    "category": ["html", "css", "javascript"],
+    "image": "/projects/space-tourism.png",
+    "features": [
+      "Multiple pages with smooth transitions",
+      "Responsive design for all devices",
+      "Modern UI with space-themed visuals"
+    ],
+    "secondarycolor": "#0072ff",
+    "links": [
+      {
+        "type": "github",
+        "url": "https://github.com/Irina11122/Space-tourism-multi-page-website-MY-SOLUTION"
+      },
+      {
+        "type": "live-demo",
+        "url": "https://irina11122.github.io/Space-tourism-multi-page-website-MY-SOLUTION/"
+      }
+    ]
   },
   {
     "id": 8,
-    "title": "RESTOURANT WEBSITE DESIGN",
-    "role": "Battle Royale",
-    "background": "#cccccc",
-    "tech": "PC, Consoles, Mobile",
-    "result": 2017,
-    "rating": 8.0,
-    "image": "https://cdn2.unrealengine.com/ogc1s3-1920x1080-181f9f4e8a8e.jpg",
-    "poster": "https://i.ebayimg.com/00/s/OTA3WDYzOA==/z/e4MAAOSw~mpfjvfI/$_57.PNG?set_id=8800005007",
-    "description": "Build, battle, and survive in this fast-paced, stylized battle royale game that’s become a pop culture phenomenon.",
-    "category": "figma"
+    "title": "Social Links Profile",
+    "background": "#ff512f",
+    "description": "Profile page showing social links with clean UI and hover effects.",
+    "role": "Frontend Developer",
+    "tech": ["HTML", "CSS"],
+    "category": ["html", "css"],
+    "image": "/projects/social-links-profile.png",
+    "features": [
+      "Hover effects on social icons",
+      "Responsive design for all devices",
+      "Clean and modern UI"
+    ],
+    "secondarycolor": "#dd2476",
+    "links": [
+      {
+        "type": "github",
+        "url": "https://github.com/Irina11122/social-links-profile-main"
+      },
+      {
+        "type": "live-demo",
+        "url": "https://irina11122.github.io/social-links-profile-main/"
+      }
+    ]
   },
   {
     "id": 9,
-    "title": "CITY INFO",
-    "role": "Action-Adventure",
-    "background": "#cccccc",
-    "tech": "PC, PS3-5, Xbox",
-    "result": 2013,
-    "rating": 9.7,
-    "image": "https://wallpapercat.com/w/full/f/e/c/2475-1920x1080-desktop-1080p-grand-theft-auto-5-background-image.jpg",
-    "poster": "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png",
-    "description": "Experience the criminal lives of three unique protagonists in a sprawling, chaotic, and satirical version of Los Angeles.",
-    "category": "js"
+    "title": "Car Website",
+    "background": "#1e3c72",
+    "description": "Responsive car dealership website with clean layout and interactive sections.",
+    "role": "Frontend Developer",
+    "tech": ["HTML", "CSS", "JAVASCRIPT"],
+    "category": ["html", "css", "javascript"],
+    "image": "/projects/car-website.png",
+    "features": [
+      "Responsive layout",
+      "Interactive UI sections",
+      "Modern design inspired by car dealership websites"
+    ],
+    "secondarycolor": "#2a5298",
+    "links": [
+      {
+        "type": "github",
+        "url": "https://github.com/Irina11122/Car-Website"
+      },
+      {
+        "type": "live-demo",
+        "url": "https://irina11122.github.io/Car-Website/"
+      }
+    ]
   },
   {
     "id": 10,
-    "title": "CAR SHOP",
-    "role": "Action RPG",
-    "background": "#cccccc",
-    "tech": "PC, PS4/5, Xbox, Switch",
-    "result": 2023,
-    "rating": 8.5,
-    "image": "https://images.ladbible.com/resize?type=webp&quality=70&width=3840&fit=contain&gravity=auto&url=https://images.ladbiblegroup.com/v3/assets/bltbc1876152fcd9f07/blt23dbcb98a42db60e/67c059b8b152f37233b1bcee/HL.jpeg",
-    "poster": "https://i.ebayimg.com/images/g/CcYAAOSwQK1j7izt/s-l1200.jpg",
-    "description": "Step into the magical world of Harry Potter in this open-world RPG set in the 1800s, where your legacy is in your hands.",
-    "category": "js"
+    "title": "Blog Preview Card",
+    "background": "#ffafbd",
+    "description": "Frontend Mentor challenge: Blog preview card with modern design and responsive layout.",
+    "role": "Frontend Developer",
+    "tech": ["HTML", "CSS"],
+    "category": ["html", "css"],
+    "image": "/projects/blog-preview-card.png",
+    "features": [
+      "Responsive layout",
+      "Hover effects on blog images",
+      "Clean and modern UI"
+    ],
+    "secondarycolor": "#ffc3a0",
+    "links": [
+      {
+        "type": "github",
+        "url": "https://github.com/Irina11122/Blog-Preview-Card"
+      },
+      {
+        "type": "live-demo",
+        "url": "https://irina11122.github.io/Blog-Preview-Card/"
+      }
+    ]
   },
   {
     "id": 11,
-    "title": "SOCIAL LINKS PROFILE",
-    "role": "Action RPG",
-    "background": "#cccccc",
-    "tech": "PC, PS4/5, Xbox, Switch",
-    "result": 2023,
-    "rating": 8.5,
-    "image": "https://images.ladbible.com/resize?type=webp&quality=70&width=3840&fit=contain&gravity=auto&url=https://images.ladbiblegroup.com/v3/assets/bltbc1876152fcd9f07/blt23dbcb98a42db60e/67c059b8b152f37233b1bcee/HL.jpeg",
-    "poster": "https://i.ebayimg.com/images/g/CcYAAOSwQK1j7izt/s-l1200.jpg",
-    "description": "Step into the magical world of Harry Potter in this open-world RPG set in the 1800s, where your legacy is in your hands.",
-    "category": "html"
+    "title": "QR Code Card With Bootstrap",
+    "background": "#4facfe",
+    "description": "A QR Code card project built using Bootstrap, responsive and modern UI.",
+    "role": "Frontend Developer",
+    "tech": ["HTML", "CSS", "BOOTSTRAP"],
+    "category": ["html", "css", "bootstrap"],
+    "image": "/projects/qr-code-card.png",
+    "features": [
+      "Responsive layout",
+      "Bootstrap based design",
+      "Clean and minimalistic UI"
+    ],
+    "secondarycolor": "#00f2fe",
+    "links": [
+      {
+        "type": "github",
+        "url": "https://github.com/Irina11122/QR-Code-Card-With-Bootstrap"
+      },
+      {
+        "type": "live-demo",
+        "url": "https://irina11122.github.io/QR-Code-Card-With-Bootstrap/"
+      }
+    ]
   },
   {
     "id": 12,
-    "title": "QR CODE",
-    "role": "Action RPG",
-    "background": "#cccccc",
-    "tech": "PC, PS4/5, Xbox, Switch",
-    "result": 2023,
-    "rating": 8.5,
-    "image": "https://images.ladbible.com/resize?type=webp&quality=70&width=3840&fit=contain&gravity=auto&url=https://images.ladbiblegroup.com/v3/assets/bltbc1876152fcd9f07/blt23dbcb98a42db60e/67c059b8b152f37233b1bcee/HL.jpeg",
-    "poster": "https://i.ebayimg.com/images/g/CcYAAOSwQK1j7izt/s-l1200.jpg",
-    "description": "Step into the magical world of Harry Potter in this open-world RPG set in the 1800s, where your legacy is in your hands.",
-    "category": "html"
+    "title": "Base Apparel Coming Soon Page",
+    "background": "#ff4e00",
+    "description": "Frontend Mentor solution for a coming soon page with Flexbox layout.",
+    "role": "Frontend Developer",
+    "tech": ["HTML", "CSS", "FLEXBOX"],
+    "category": ["html", "css"],
+    "image": "/projects/base-apparel.png",
+    "features": [
+      "Responsive Flexbox layout",
+      "Clean minimalistic UI",
+      "Countdown timer and email input"
+    ],
+    "secondarycolor": "#f9d423",
+    "links": [
+      {
+        "type": "github",
+        "url": "https://github.com/Irina11122/Base-Apparel-Coming-Soon-Page-Solution-With-Flexbox"
+      },
+      {
+        "type": "live-demo",
+        "url": "https://irina11122.github.io/Base-Apparel-Coming-Soon-Page-Solution-With-Flexbox/"
+      }
+    ]
   },
   {
     "id": 13,
-    "title": "BLOG PREVIEW CARD",
-    "role": "Action RPG",
-    "background": "#cccccc",
-    "tech": "PC, PS4/5, Xbox, Switch",
-    "result": 2023,
-    "rating": 8.5,
-    "image": "https://images.ladbible.com/resize?type=webp&quality=70&width=3840&fit=contain&gravity=auto&url=https://images.ladbiblegroup.com/v3/assets/bltbc1876152fcd9f07/blt23dbcb98a42db60e/67c059b8b152f37233b1bcee/HL.jpeg",
-    "poster": "https://i.ebayimg.com/images/g/CcYAAOSwQK1j7izt/s-l1200.jpg",
-    "description": "Step into the magical world of Harry Potter in this open-world RPG set in the 1800s, where your legacy is in your hands.",
-    "category": "html"
+    "title": "Recipe Page",
+    "background": "#ff9966",
+    "description": "A recipe website showcasing various dishes with clean layout and images.",
+    "role": "Frontend Developer",
+    "tech": ["HTML", "CSS"],
+    "category": ["html", "css"],
+    "image": "/projects/recipe-page.png",
+    "features": [
+      "Clean layout with recipe cards",
+      "Responsive design",
+      "Images and hover effects"
+    ],
+    "secondarycolor": "#ff5e62",
+    "links": [
+      {
+        "type": "github",
+        "url": "https://github.com/Irina11122/RecipePage"
+      },
+      {
+        "type": "live-demo",
+        "url": "https://irina11122.github.io/RecipePage/"
+      }
+    ]
   },
   {
     "id": 14,
-    "title": "RECIPE PAGE",
-    "role": "Action RPG",
-    "background": "#cccccc",
-    "tech": "PC, PS4/5, Xbox, Switch",
-    "result": 2023,
-    "rating": 8.5,
-    "image": "https://images.ladbible.com/resize?type=webp&quality=70&width=3840&fit=contain&gravity=auto&url=https://images.ladbiblegroup.com/v3/assets/bltbc1876152fcd9f07/blt23dbcb98a42db60e/67c059b8b152f37233b1bcee/HL.jpeg",
-    "poster": "https://i.ebayimg.com/images/g/CcYAAOSwQK1j7izt/s-l1200.jpg",
-    "description": "Step into the magical world of Harry Potter in this open-world RPG set in the 1800s, where your legacy is in your hands.",
-    "category": "html"
+    "title": "ZFK Borec Project",
+    "background": "#11998e",
+    "description": "A project for ZFK Borec club website with clean responsive layout and modern design.",
+    "role": "Frontend Developer",
+    "tech": ["HTML", "CSS", "JAVASCRIPT"],
+    "category": ["html", "css", "javascript"],
+    "image": "/projects/zfk-borec.png",
+    "features": [
+      "Responsive layout for all devices",
+      "Modern UI inspired by sports websites",
+      "Interactive sections"
+    ],
+    "secondarycolor": "#38ef7d",
+    "links": [
+      {
+        "type": "github",
+        "url": "https://github.com/Irina11122/ZFK-Borec-Project"
+      },
+      {
+        "type": "live-demo",
+        "url": "https://irina11122.github.io/ZFK-Borec-Project/"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "PET ADOPTION DESIGN",
+    "background": "#11998e",
+    "description": "A project for ZFK Borec club website with clean responsive layout and modern design.",
+    "role": "Frontend Developer",
+    "tech": ["HTML", "CSS", "JAVASCRIPT"],
+    "category": ["figma"],
+    "image": "/projects/zfk-borec.png",
+    "features": [
+      "Responsive layout for all devices",
+      "Modern UI inspired by sports websites",
+      "Interactive sections"
+    ],
+    "secondarycolor": "#38ef7d",
+    "links": [
+      {
+        "type": "github",
+        "url": "https://github.com/Irina11122/ZFK-Borec-Project"
+      },
+      {
+        "type": "live-demo",
+        "url": "https://irina11122.github.io/ZFK-Borec-Project/"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "URBANBREW COFFEE",
+    "background": "#11998e",
+    "description": "A project for ZFK Borec club website with clean responsive layout and modern design.",
+    "role": "Frontend Developer",
+    "tech": ["HTML", "CSS", "JAVASCRIPT"],
+    "category": ["figma"],
+    "image": "/projects/zfk-borec.png",
+    "features": [
+      "Responsive layout for all devices",
+      "Modern UI inspired by sports websites",
+      "Interactive sections"
+    ],
+    "secondarycolor": "#38ef7d",
+    "links": [
+      {
+        "type": "github",
+        "url": "https://github.com/Irina11122/ZFK-Borec-Project"
+      },
+      {
+        "type": "live-demo",
+        "url": "https://irina11122.github.io/ZFK-Borec-Project/"
+      }
+    ]
   }
 ]

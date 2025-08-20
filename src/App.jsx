@@ -8,8 +8,7 @@ import ProjectsInfo from './pages/ProjectsInfo';
 
 export default function App() {
   return (
-    <div className="comfortaa-700 ">
-      <Navbar />
+    <div className="comfortaa-700">
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/info/:id" element={<ProjectsInfo />} />

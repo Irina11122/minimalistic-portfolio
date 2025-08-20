@@ -14,9 +14,9 @@ export default function Navbar() {
   }, [theme]);
   return (
     <div className="flex justify-center">
-      <header className="fixed w-w-90% bg-my-purple flex justify-between h-20  z-10 top-5 dark-header">
-        <h1 className="w-44 text-start text-dark-purple text-2xl flex items-center justify-center">
-          <img src="/logos/logo.png" alt="" />
+      <header className="fixed w-w-90% bg-my-purple flex justify-between h-20  z-20 top-5 dark-header">
+        <h1 className="w-44 text-start text-dark-purple dark:text-gold text-2xl flex items-center justify-center">
+          <img src="/logos/logo.png" alt="logo" className="mx-5" />
           Irina Bojkovska
         </h1>
         <nav className="items-center gap-20 text-2xl md:flex hidden text-gray-purple dark:text-gray-100">
