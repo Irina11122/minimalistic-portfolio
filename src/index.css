@@ -12,10 +12,12 @@
 :root {
   --wp--preset--color--primary: #7c027c;
   --wp--preset--color--secondary: #420142;
+  --silhouette-color: #bab1fb; /* light theme purple */
 }
 body {
   position: relative;
   overflow-x: hidden;
+  transition: all 0.4s ease-in-out;
 }
 
 .dark body {
@@ -40,7 +42,15 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #5c3ea3;
 }
+.dark ::-webkit-scrollbar-thumb {
+  background: #e0c36d;
+  border-radius: 10px;
+  border: 3px solid #f1f1f1;
+}
 
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #b0942c;
+}
 button {
   cursor: pointer;
 }
@@ -57,6 +67,43 @@ button {
 }
 .tech-stack:hover h1 {
   opacity: 1;
+}
+.about-me-div {
+  height: 70vh;
+  width: 90%;
+  border: 10px solid #bab1fb;
+}
+
+.text-about-me {
+  width: 70%;
+  padding: 20px;
+  letter-spacing: 4px;
+  line-height: 30px;
+}
+.glitch-lines {
+  .glitch-lines {
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --silhouette-color: gold;
+  }
+}
+
+.silhouette {
+  background-color: var(--silhouette-color);
+  -webkit-mask-image: url('/edited_myimg.png');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+  mask-image: url('/edited_myimg.png');
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
 }
 
 /*! Projects */
@@ -87,7 +134,17 @@ button {
   height: 40px;
   background: #b5e3ff77;
 }
+.my-name {
+  background: linear-gradient(to right, #bab1fb, #6e62d3, #5a4fc2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
+.dark .my-name {
+  background: linear-gradient(to right, #ccc, #e0c36d, #e0c36d, #968349);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .dark .home-line {
   background: linear-gradient(
     45deg,
@@ -165,12 +222,36 @@ button {
     #7f6508 100%
   );
   color: #312f2d;
-}
+  box-shadow: none;
+  transition: all 0.7s ease-in-out;
 
+  &:hover {
+    scale: 1.1;
+    box-shadow: 0 0 50px #e0d7b5a4;
+  }
+}
+.see-my-work-btn {
+  color: #312f2d;
+  box-shadow: inset 4px 4px 8px #8477fa;
+  transition: all 0.7s ease-in-out;
+  &:hover {
+    scale: 1.1;
+  }
+}
 .icons-home-div {
   background: linear-gradient(280.52deg, #7f7f7f 2.16%, #605c57 94.45%);
-}
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
 
+  &:hover {
+    scale: 1.2;
+  }
+}
+.role-text {
+  background: linear-gradient(to right, #ccc, rgb(80, 80, 80), #939393);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 /*! Projects info */
 
 #infopage {

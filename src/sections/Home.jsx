@@ -1,7 +1,8 @@
 import { VscGithubAlt } from 'react-icons/vsc';
-import { FaInstagram } from 'react-icons/fa';
+import { FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
 import { TbFileCv } from 'react-icons/tb';
+import { SlSocialLinkedin } from 'react-icons/sl';
 
 export default function Home() {
   return (
@@ -15,12 +16,11 @@ export default function Home() {
       {/* <div className="triangle"></div> */}
       <div className="z-20">
         <h1 className="md:text-5xl text-4xl my-name uppercase md:mb-5 comfortaa-400 text-my-purple dark:text-gray-300 md:ml-0 ml-10 mb-20 md:mt-0 mt-32">
-          Hi I am{' '}
-          <span className="md:text-7xl text-4xl text-neon-purple comfortaa-700 dark:text-gold ">
-            IRINA BOJKOVSKA,
+          <span className="md:text-7xl text-4xl my-name comfortaa-700 dark:text-gold ">
+            Hi I am IRINA BOJKOVSKA,
           </span>
         </h1>
-        <h3 className="md:text-3xl text-gray-200 text-end md:mr-0 mr-2">
+        <h3 className="md:text-3xl text-gray-200 text-end md:mr-0 mr-2 role-text">
           a FRONTEND DEVELOPER & GRAPHIC DESIGNER
         </h3>
       </div>
@@ -28,19 +28,30 @@ export default function Home() {
         <div className="md:float-none float-start md:pl-0 pl-3">
           {' '}
           <button className="md:text-2xl bg-my-purple md:p-10 see-my-work-btn p-5">
-            <a href="#projects">SEE MY WORK</a>
+            <a href="#projects" className="">
+              SEE MY WORK
+            </a>
           </button>
         </div>
 
-        <div className="z-10 md:pr-0 pr-3">
+        <div className="z-10 md:pr-0 pr-3 home-icons">
           <div className="flex gap-8 md:text-2xl md:p-10 icons-home-div z-10 p-5 float-end">
-            <a href="https://github.com/Irina11122">
+            <a
+              href="https://github.com/Irina11122"
+              className="hover:dark:text-gold  hover:text-my-purple"
+            >
               <VscGithubAlt size={40} />
             </a>
-            <a href="#">
-              <FaInstagram size={40} />
+            <a
+              href="https://www.linkedin.com/in/irina-bojkovska-iri17/"
+              className="hover:dark:text-gold  hover:text-my-purple"
+            >
+              <SlSocialLinkedin size={40} />
             </a>
-            <a href="/complete-cv-irina.pdf">
+            <a
+              href="/complete-cv-irina.pdf"
+              className="hover:dark:text-gold hover:text-my-purple"
+            >
               <TbFileCv size={40} />
             </a>
           </div>
