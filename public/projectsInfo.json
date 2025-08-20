@@ -94,7 +94,7 @@
       "FIGMA"
     ],
     "category": ["react", "figma"],
-    "image": "/projects/koko-lounge-bar.png",
+    "image": "/projects/sww.png",
     "features": [
       "Modern and fully responsive design",
       "Smooth animations with Framer Motion and GSAP",
@@ -177,7 +177,7 @@
     "role": "Frontend Developer",
     "tech": ["HTML", "CSS"],
     "category": ["html", "css"],
-    "image": "/projects/product-preview-card.png",
+    "image": "/projects/perfume.png",
     "features": [
       "Hover effects on product image",
       "Responsive design for various screen sizes",
@@ -203,7 +203,7 @@
     "role": "Frontend Developer",
     "tech": ["HTML", "CSS", "JAVASCRIPT"],
     "category": ["html", "css", "javascript"],
-    "image": "/projects/space-tourism.png",
+    "image": "/projects/space.png",
     "features": [
       "Multiple pages with smooth transitions",
       "Responsive design for all devices",
@@ -229,7 +229,7 @@
     "role": "Frontend Developer",
     "tech": ["HTML", "CSS"],
     "category": ["html", "css"],
-    "image": "/projects/social-links-profile.png",
+    "image": "/projects/social-media.png",
     "features": [
       "Hover effects on social icons",
       "Responsive design for all devices",
@@ -307,7 +307,7 @@
     "role": "Frontend Developer",
     "tech": ["HTML", "CSS", "BOOTSTRAP"],
     "category": ["html", "css", "bootstrap"],
-    "image": "/projects/qr-code-card.png",
+    "image": "/projects/qr.png",
     "features": [
       "Responsive layout",
       "Bootstrap based design",
@@ -333,7 +333,7 @@
     "role": "Frontend Developer",
     "tech": ["HTML", "CSS", "FLEXBOX"],
     "category": ["html", "css"],
-    "image": "/projects/base-apparel.png",
+    "image": "/projects/base.png",
     "features": [
       "Responsive Flexbox layout",
       "Clean minimalistic UI",
@@ -359,7 +359,7 @@
     "role": "Frontend Developer",
     "tech": ["HTML", "CSS"],
     "category": ["html", "css"],
-    "image": "/projects/recipe-page.png",
+    "image": "/projects/recipe.png",
     "features": [
       "Clean layout with recipe cards",
       "Responsive design",
@@ -411,7 +411,7 @@
     "role": "Frontend Developer",
     "tech": ["HTML", "CSS", "JAVASCRIPT"],
     "category": ["figma"],
-    "image": "/projects/zfk-borec.png",
+    "image": "/projects/pe.png",
     "features": [
       "Responsive layout for all devices",
       "Modern UI inspired by sports websites",
