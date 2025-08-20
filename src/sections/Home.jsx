@@ -15,8 +15,8 @@ export default function Home() {
       <div className="bottom-home-line ipad:bottom-44 ipad:w-full"></div>
       {/* <div className="triangle"></div> */}
       <div className="z-20">
-        <h1 className="md:text-5xl text-4xl my-name uppercase md:mb-5 comfortaa-400 text-my-purple dark:text-gray-300 md:ml-0 ml-10 mb-20 md:mt-0 mt-32">
-          <span className="md:text-7xl text-4xl my-name comfortaa-700 dark:text-gold ">
+        <h1 className="my-name uppercase md:mb-5 comfortaa-400 text-my-purple dark:text-gray-300 md:ml-0 ml-10 mb-20 md:mt-0 mt-32">
+          <span className="md:text-6xl text-4xl my-name comfortaa-700 dark:text-gold ">
             Hi I am IRINA BOJKOVSKA,
           </span>
         </h1>
