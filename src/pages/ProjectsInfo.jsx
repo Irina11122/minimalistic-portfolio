@@ -29,8 +29,8 @@ export default function ProjectsInfo() {
         </button>
       </header>
       <div className="flex flex-col">
-        <div className="flex gap-9 px-5">
-          <div className="md:w-w-50% ">
+        <div className="flex md:flex-row flex-col-reverse md:gap-9 px-5">
+          <div className="md:w-w-50% w-full ">
             <p className="text-2xl mb-4">{info.description}</p>
             <p className="text-2xl mb-7">
               Role: <span className="text-neon-purple">{info.role}</span>
@@ -43,7 +43,7 @@ export default function ProjectsInfo() {
                 </li>
               ))}
             </ul>{' '}
-            <div className="flex flex-wrap gap-20 ">
+            <div className="flex flex-wrap gap-20 md:my-0 my-20 ">
               {info.tech.map((item, i) => {
                 return (
                   <button
@@ -57,8 +57,12 @@ export default function ProjectsInfo() {
               })}
             </div>
           </div>
-          <div className="md:w-w-50% flex flex-col items-center h-screen justify-start">
-            <img src={info.image} alt={info.title} className="w-full rounded mb-10" />
+          <div className="md:w-w-50% flex flex-col items-center md:h-screen mb-20 justify-start w-full">
+            <img
+              src={info.image}
+              alt={info.title}
+              className="w-full rounded mb-10"
+            />
             <div>
               {info.links.map((link, i) => {
                 return (
