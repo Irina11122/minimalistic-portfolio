@@ -19,7 +19,7 @@ export default function Navbar() {
     if (isOpen) {
       document.body.style.overflow = "hidden";
     } else {
-      document.body.style.overflow = "auto";
+      document.body.style.overflow = "visible";
     }
   }, [isOpen]);
   return (
@@ -55,17 +55,25 @@ export default function Navbar() {
       </header>
 
       {isOpen && (
-        <div>
-          <nav className="absolute bg-dark-purple text-gray-50 playfair-display-sc-regular text-2xl z-50 h-screen top-0 right-0 w-screen flex flex-col gap-24 py-44 items-center ">
+        <div className="">
+          <nav className="absolute bg-dark-purple text-gray-50 playfair-display-sc-regular text-2xl h-screen top-0 right-0 w-screen flex flex-col gap-24 py-44 items-center z-50">
             <FaFaceDizzy
               onClick={() => setIsOpen(false)}
               size={50}
               className="z-50 absolute top-5 right-5"
             />
-            <a href="#home">Home</a>
-            <a href="#projects">Projects</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>{" "}
+            <a href="#home" onClick={() => setIsOpen(false)}>
+              Home
+            </a>
+            <a href="#projects" onClick={() => setIsOpen(false)}>
+              Projects
+            </a>
+            <a href="#about" onClick={() => setIsOpen(false)}>
+              About
+            </a>
+            <a href="#contact" onClick={() => setIsOpen(false)}>
+              Contact
+            </a>
             <button
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
               className="md:w-20 md:h-20 md:hidden rounded-full"

@@ -152,7 +152,7 @@ button {
   background: linear-gradient(to right, #bab1fb, #6e62d3, #5a4fc2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 1rem;
+  font-size: 3rem;
 }
 
 .dark .my-name {
