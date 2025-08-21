@@ -18,7 +18,10 @@ body {
   position: relative;
   overflow-x: hidden;
   transition: all 0.4s ease-in-out;
-  font-family: 'Comfortaa', 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+html {
+  font-size: 1rem;
 }
 
 .dark body {
