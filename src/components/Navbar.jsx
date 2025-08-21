@@ -15,6 +15,13 @@ export default function Navbar() {
       root.classList.remove("dark");
     }
   }, [theme]);
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [isOpen]);
   return (
     <div className="flex justify-center relative">
       <header className="fixed md:w-w-90% w-full bg-my-purple flex justify-between h-20 items-center  z-20 md:top-5 top-2 dark-header">
@@ -49,7 +56,7 @@ export default function Navbar() {
 
       {isOpen && (
         <div>
-          <nav className="absolute bg-dark-purple text-gray-50 playfair-display-sc-regular text-2xl z-50 h-screen top-0 right-0 w-screen flex flex-col gap-24 py-10 items-center">
+          <nav className="absolute bg-dark-purple text-gray-50 playfair-display-sc-regular text-2xl z-50 h-screen top-0 right-0 w-screen flex flex-col gap-24 py-44 items-center ">
             <FaFaceDizzy
               onClick={() => setIsOpen(false)}
               size={50}
