@@ -49,7 +49,7 @@
       "I18NEXT",
       "FIGMA"
     ],
-    "category": ["react", "figma"],
+    "category": ["react"],
     "image": "/projects/matrix-portfolio.png",
     "features": [
       "Modern and fully responsive design",
@@ -63,10 +63,6 @@
       {
         "type": "github",
         "url": "https://github.com/Irina11122/frontend-portfolio"
-      },
-      {
-        "type": "figma",
-        "url": "https://www.figma.com/design/MocZQND83f04dFE4pl46NY/Untitled?node-id=1-2&t=CoArJEjmV3l8gjjx-1"
       },
       {
         "type": "live-demo",
