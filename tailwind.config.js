@@ -11,6 +11,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        comfortaa: ['Comfortaa', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
+      },
       colors: {
         'my-purple': '#CDC8FF',
         'dark-purple': '#8477FA',
