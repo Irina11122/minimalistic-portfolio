@@ -343,6 +343,11 @@ button {
     rotate: 91deg;
     z-index: 0;
   }
+  .project-btn {
+  box-shadow: 0 0 10px #eee;
+  left: 1%;
+  transform: translate(50%, -50%);
+}
 }
 
 @media (max-width: 375px) {
