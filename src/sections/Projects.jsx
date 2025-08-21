@@ -18,7 +18,7 @@ export default function Projects() {
     }
   };
   return (
-    <section id="projects" className="z-20">
+    <section id="projects" className="z-10">
       <h1 className="md:text-4xl uppercase">See my projects</h1>
       <button
         onClick={() => filterData('All')}

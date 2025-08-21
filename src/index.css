@@ -323,7 +323,7 @@ button {
   .bottom-home-line {
     position: fixed;
     bottom: 15%;
-    z-index: 100;
+    z-index: -1;
     right: -25%;
     rotate: -45deg;
     width: 120%;
@@ -370,7 +370,7 @@ button {
   .bottom-home-line {
     position: fixed;
     bottom: 15%;
-    z-index: 100;
+    z-index: -1;
     right: -25%;
     rotate: -45deg;
     width: 120%;

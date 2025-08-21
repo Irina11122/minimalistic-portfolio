@@ -19,7 +19,7 @@ export default function Navbar() {
     if (isOpen) {
       document.body.style.overflow = "hidden";
     } else {
-      document.body.style.overflow = "visible";
+      document.body.style.overflow = "auto";
     }
   }, [isOpen]);
   return (
@@ -56,7 +56,7 @@ export default function Navbar() {
 
       {isOpen && (
         <div className="">
-          <nav className="absolute bg-dark-purple text-gray-50 playfair-display-sc-regular text-2xl h-screen top-0 right-0 w-screen flex flex-col gap-24 py-44 items-center z-50">
+          <nav className="fixed bg-dark-purple text-gray-50 playfair-display-sc-regular text-2xl h-screen top-0 right-0 w-screen flex flex-col gap-24 py-20 items-center z-50">
             <FaFaceDizzy
               onClick={() => setIsOpen(false)}
               size={50}
