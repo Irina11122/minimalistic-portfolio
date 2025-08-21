@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "TODO APP",
-    "background": "#7372D6",
+    "background": "#d1c6ff",
     "description": "A modern and dynamic task management web application built with React. Complete user experience with registration, login, task management, and secure JWT authentication.",
     "role": "Frontend Developer",
     "tech": ["REACT", "CSS", "FORMIK", "SWR", "JWT", "REACT-ICONS", "FIGMA"],
@@ -15,7 +15,7 @@
       "Clean and minimalistic UI with light & dark theme support"
     ],
     "color": "#000",
-    "secondarycolor": "#B1AAF0",
+    "secondarycolor": "#b7a8f5",
     "links": [
       {
         "type": "github",

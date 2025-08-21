@@ -48,7 +48,7 @@ export default function ProjectsInfo() {
                 </li>
               ))}
             </ul>{" "}
-            <div className="flex flex-wrap md:gap-20 gap-5 md:my-0 my-20 ">
+            <div className="flex flex-wrap md:gap-20 gap-8 md:my-0 my-20 justify-center">
               {info.tech.map((item, i) => {
                 return (
                   <button
