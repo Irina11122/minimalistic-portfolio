@@ -15,9 +15,9 @@
   --silhouette-color: #bab1fb; /* light theme purple */
 }
 body {
-  position: relative;
+  margin: 0;
+  padding: 0;
   overflow-x: hidden;
-  transition: all 0.4s ease-in-out;
   font-family: 'Poppins', sans-serif;
 }
 html {
