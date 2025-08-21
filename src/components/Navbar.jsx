@@ -43,7 +43,10 @@ export default function Navbar() {
             onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
             className="md:w-20 md:h-20 md:flex hidden rounded-full"
           >
-            <LuSunMoon size={50} className="m-auto" color="gold" />
+            <LuSunMoon
+              size={50}
+              className="m-auto text-dark-purple dark:text-gold"
+            />
           </button>
           <button
             onClick={() => setIsOpen(true)}

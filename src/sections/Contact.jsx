@@ -46,28 +46,28 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="flex flex-col items-center p-8 md:p-16 bg-gray-50 dark:bg-gray-purple min-h-screen"
+      className="flex flex-col items-center p-8 md:p-16 bg-gray-50 dark:bg-gray-purple/80 min-h-screen"
     >
       <h1 className="text-4xl font-bold mb-8 text-purple-700 dark:text-gold">
         Contact Me
       </h1>
 
       <div className="flex flex-col md:flex-row gap-6 mb-12 z-10">
-        <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md w-64 text-center">
+        <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md w-64 text-center golden-color">
           <span className="text-2xl mb-2">
             <MdEmail />
           </span>
           <h2 className="font-semibold mb-1">Email</h2>
           <p>bojkovskai45@gmail.com</p>
         </div>
-        <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md w-64 text-center">
+        <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md w-64 text-center golden-color">
           <span className="text-2xl mb-2">
             <FaPhoneAlt />
           </span>
           <h2 className="font-semibold mb-1">Phone</h2>
           <p>+389 77 637 990</p>
         </div>
-        <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md w-64 text-center">
+        <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md w-64 text-center golden-color">
           <span className="text-2xl mb-2">
             <FaSearchLocation />
           </span>

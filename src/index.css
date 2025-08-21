@@ -212,12 +212,17 @@ button {
 
 .dark .bottom-home-line {
   background: linear-gradient(
-    -45deg,
+    -90deg,
+    #caab38 3.2%,
+    #f2eaac 36.85%,
+    #e3bf3d 63.02%,
+    #968349 89.61%,
     #caab38 3.2%,
     #f2eaac 36.85%,
     #e3bf3d 63.02%,
     #968349 89.61%
   );
+  opacity: 80%;
 }
 .triangle {
   position: absolute;
@@ -295,6 +300,15 @@ button {
   left: 10%;
   transform: translate(50%, -50%);
 }
+.dark .golden-color {
+  background: linear-gradient(
+    -45deg,
+    #caab38 3.2%,
+    #f2eaac 36.85%,
+    #e3bf3d 63.02%,
+    #968349 89.61%
+  );
+}
 .role-text {
   background: linear-gradient(to right, #ccc, rgb(80, 80, 80), #939393);
   -webkit-background-clip: text;
@@ -332,6 +346,7 @@ button {
   .dark .other-home-line {
     top: 15%;
   }
+
   .other-home-line {
     top: 1.3%;
     left: -38%;
