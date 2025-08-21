@@ -15,7 +15,7 @@ export default function Home() {
       <div className="bottom-home-line ipad:bottom-44 ipad:w-full"></div>
       {/* <div className="triangle"></div> */}
       <div className="z-10">
-        <h1 className="my-name uppercase md:mb-5 md:ml-0 ml-10 dark:md:text-center dark:text-end mb-20 md:mt-0 mt-32 comfortaa-700 rounded">
+        <h1 className="my-name uppercase md:mb-5 md:ml-0 ml-10 dark:md:text-start dark:text-end mb-20 md:mt-0 mt-32 comfortaa-700 rounded">
           Hi I am IRINA BOJKOVSKA,
         </h1>
         <h3 className="md:text-3xl text-gray-200 text-end md:mr-0 mr-2 role-text">
@@ -38,19 +38,19 @@ export default function Home() {
               href="https://github.com/Irina11122"
               className="hover:dark:text-gold  hover:text-my-purple"
             >
-              <VscGithubAlt size={40} />
+              <VscGithubAlt size={35} />
             </a>
             <a
               href="https://www.linkedin.com/in/irina-bojkovska-iri17/"
               className="hover:dark:text-gold  hover:text-my-purple"
             >
-              <SlSocialLinkedin size={40} />
+              <SlSocialLinkedin size={35} />
             </a>
             <a
               href="/complete-cv-irina.pdf"
               className="hover:dark:text-gold hover:text-my-purple"
             >
-              <TbFileCv size={40} />
+              <TbFileCv size={35} />
             </a>
           </div>
         </div>
