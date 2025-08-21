@@ -59,7 +59,7 @@ export default function About() {
       className="flex justify-center items-center p-4 md:h-screen"
     >
       <div className="flex flex-col md:flex-row relative w-full max-w-6xl h-[70vh] border-4 border-purple-300  dark:border-gold dark:text-gold overflow-hidden">
-        <div className="flex-1 p-6 overflow-y-auto z-10">
+        <div className="flex-1 p-6 overflow-y-auto z-10 dark:bg-black/90">
           <h1 className="text-4xl mb-6">About me</h1>
           <p className="mb-6 leading-8">
             Hi! I'm Irina, a Frontend Developer with a background in Graphic
@@ -89,7 +89,6 @@ export default function About() {
         </div>
 
         <div className="md:flex flex-1 hidden  relative z-10">
-          {/* Силуета */}
           <div className="absolute top-0 left-0 w-full h-full z-10">
             <img src="/sil.png" alt="" className="w-full h-full object-cover" />
           </div>

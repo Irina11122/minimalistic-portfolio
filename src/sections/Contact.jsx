@@ -52,7 +52,7 @@ export default function Contact() {
         Contact Me
       </h1>
 
-      <div className="flex flex-col md:flex-row gap-6 mb-12">
+      <div className="flex flex-col md:flex-row gap-6 mb-12 z-10">
         <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md w-64 text-center">
           <span className="text-2xl mb-2">
             <MdEmail />
@@ -78,7 +78,7 @@ export default function Contact() {
 
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col gap-4 w-full max-w-xl bg-white p-8 rounded-lg shadow-md"
+        className="flex flex-col gap-4 w-full z-10 max-w-xl bg-white p-8 rounded-lg shadow-md"
       >
         <input
           type="text"
@@ -119,20 +119,23 @@ export default function Contact() {
         </button>
       </form>
 
-      <div className="flex gap-6 mt-8">
+      <div className="flex gap-14 mt-8 z-10">
         <a
           href="https://github.com/Irina11122"
           target="_blank"
-          className="text-purple-700 dark:text-gold hover:text-purple-900 text-2xl"
+          className="text-purple-700 shadow dark:text-gold hover:text-purple-900 text-2xl"
         >
-          <FaGithub size={50} />
+          <FaGithub size={50} className="shadow shadow-black rounded-full" />
         </a>
         <a
           href="https://www.linkedin.com/in/irina-bojkovska-iri17/"
           target="_blank"
           className="text-purple-700 dark:text-gold hover:text-purple-900 text-2xl"
         >
-          <FaLinkedin size={50} />
+          <FaLinkedin
+            size={50}
+            className="shadow shadow-black dark:rounded-full"
+          />
         </a>
       </div>
     </section>
