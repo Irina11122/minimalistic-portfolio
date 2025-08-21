@@ -5,39 +5,39 @@ export default function About() {
     { name: 'HTML', img: '/logos/html.jpg' },
     {
       name: 'CSS',
-      img: 'https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/css3-512.png',
+      img: '/logos/css-3.png',
     },
     {
       name: 'JAVASCRIPT',
-      img: 'https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png',
+      img: '/logos/js.png',
     },
     {
       name: 'REACT',
-      img: 'https://images.icon-icons.com/2415/PNG/512/react_original_wordmark_logo_icon_146375.png',
+      img: '/logos/react.png',
     },
     {
       name: 'TAILWIND CSS',
-      img: 'https://www.svgrepo.com/show/354431/tailwindcss-icon.svg',
+      img: '/logos/tailwind.png',
     },
     {
       name: 'BOOTSTRAP',
-      img: 'https://raw.githubusercontent.com/themedotid/bootstrap-icon/HEAD/docs/bootstrap-icon-css.png',
+      img: '/logos/bootstrap.png',
     },
     {
       name: 'THREE.JS',
-      img: 'https://products.fileformat.com/3d/javascript/threejs/header-image.png',
+      img: '/logos/three-js.png',
     },
     {
       name: 'FRAMER-MOTION',
-      img: 'https://images.seeklogo.com/logo-png/44/2/framer-motion-logo-png_seeklogo-446185.png',
+      img: '/logos/R.png',
     },
     {
       name: 'GSAP',
-      img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYUASnkyRvUnJRW94LrX7WDDB0aJB3k15O2A&s',
+      img: '/logos/gsap.jpg',
     },
     {
       name: 'FIGMA',
-      img: 'https://cdn.sanity.io/images/599r6htc/regionalized/46a76c802176eb17b04e12108de7e7e0f3736dc6-1024x1024.png',
+      img: '/logos/figma_5968705.png',
     },
   ];
 
