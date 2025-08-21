@@ -1,22 +1,28 @@
-import { useEffect, useState } from 'react';
-import { LuSunMoon } from 'react-icons/lu';
-import useLocalStorage from '../hook/useLocalStorage';
+import { useEffect, useState } from "react";
+import { LuSunMoon } from "react-icons/lu";
+import useLocalStorage from "../hook/useLocalStorage";
+import { FaBars, FaXingSquare } from "react-icons/fa";
+import { FaFaceDizzy } from "react-icons/fa6";
 
 export default function Navbar() {
-  const [theme, setTheme] = useLocalStorage('dark', 'theme');
+  const [isOpen, setIsOpen] = useState(false);
+  const [theme, setTheme] = useLocalStorage("dark", "theme");
   useEffect(() => {
     const root = window.document.documentElement;
-    if (theme === 'dark') {
-      root.classList.add('dark');
+    if (theme === "dark") {
+      root.classList.add("dark");
     } else {
-      root.classList.remove('dark');
+      root.classList.remove("dark");
     }
   }, [theme]);
   return (
-    <div className="flex justify-center">
-      <header className="fixed w-w-90% bg-my-purple flex justify-between h-20  z-20 top-5 dark-header">
+    <div className="flex justify-center relative">
+      <header className="fixed md:w-w-90% w-full bg-my-purple flex justify-between h-20 items-center  z-20 md:top-5 top-2 dark-header">
         <h1 className="w-44 text-start text-dark-purple dark:text-gold text-2xl flex items-center justify-center">
-          <img src="/logos/logo.png" alt="logo" className="mx-5" />
+          <div className="flex flex-col justify-center items-center mx-4">
+            <div className="line"></div>
+            <div className="circle"></div>
+          </div>
           Irina Bojkovska
         </h1>
         <nav className="items-center gap-20 text-2xl md:flex hidden text-gray-purple dark:text-gray-100">
@@ -27,13 +33,41 @@ export default function Navbar() {
         </nav>
         <div>
           <button
-            onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-            className="md:w-20 md:h-20 rounded-full"
+            onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+            className="md:w-20 md:h-20 md:flex hidden rounded-full"
           >
             <LuSunMoon size={50} className="m-auto" color="white" />
           </button>
+          <button
+            onClick={() => setIsOpen(true)}
+            className="md:hidden mr-2 text-dark-purple dark:text-gold"
+          >
+            <FaBars size={50} />
+          </button>
         </div>
       </header>
+
+      {isOpen && (
+        <div>
+          <nav className="absolute bg-dark-purple text-gray-50 playfair-display-sc-regular text-2xl z-50 h-screen top-0 right-0 w-screen flex flex-col gap-24 py-10 items-center">
+            <FaFaceDizzy
+              onClick={() => setIsOpen(false)}
+              size={50}
+              className="z-50 absolute top-5 right-5"
+            />
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>{" "}
+            <button
+              onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+              className="md:w-20 md:h-20 md:hidden rounded-full"
+            >
+              <LuSunMoon size={50} className="m-auto" color="white" />
+            </button>
+          </nav>
+        </div>
+      )}
     </div>
   );
 }
