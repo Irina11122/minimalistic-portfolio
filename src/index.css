@@ -345,6 +345,7 @@ button {
   }
   .dark .other-home-line {
     top: 15%;
+    left: -25%;
   }
 
   .other-home-line {
@@ -412,6 +413,11 @@ button {
     left: -20%;
     height: 40px;
     width: 120%;
+  }
+
+  .dark .other-home-line {
+    top: 18%;
+    left: -22%;
   }
 
   .my-name {
