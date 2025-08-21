@@ -32,7 +32,7 @@ export default function Projects() {
       <div className="flex md:justify-evenly justify-center md:flex-row md:gap-0 gap-5 mb-20 mt-20 flex-wrap">
         <button
           onClick={() => filterData('html')}
-          className="border border-black md:w-w-25% md:py-5  w-22 p-4 bg-dark-purple dark:bg-gold"
+          className="border border-black md:w-w-25% md:py-5  md:my-5  w-22 p-4 bg-dark-purple dark:bg-gold"
         >
           HTML & CSS
         </button>
@@ -41,13 +41,13 @@ export default function Projects() {
             filterData('js');
             filterData('react');
           }}
-          className="border border-black md:w-w-25% md:py-5   w-20 p-4 bg-dark-purple dark:bg-gold"
+          className="border border-black md:w-w-25% md:py-5   w-20 p-4 md:my-5 bg-dark-purple dark:bg-gold"
         >
           JS & REACT
         </button>
         <button
           onClick={() => filterData('figma')}
-          className="border border-black md:w-w-25%  w-20 md:py-5 p-4 bg-dark-purple dark:bg-gold"
+          className="border border-black md:w-w-25%  w-20 md:py-5 p-4  md:my-5  bg-dark-purple dark:bg-gold"
         >
           FIGMA
         </button>
@@ -57,13 +57,13 @@ export default function Projects() {
           return (
             <div
               key={index}
-              className="md:w-w-30%  bg-red-100 relative mb-20 cards"
+              className="md:w-w-30%  bg-red-100 relative mb-20 cards dark:border-gold dark:border-2"
             >
               <h1 className="z-20 absolute text-2xl top-3 left-10 text-gray-50">
                 {' '}
                 {info.title}{' '}
               </h1>{' '}
-              <div className="absolute projects-card md:h-80 z-10 top-0 blur"></div>
+              <div className="absolute projects-card dark:bg-black/90 md:h-80  z-10 top-0 blur"></div>
               <img
                 src={info.image}
                 alt={info.title}

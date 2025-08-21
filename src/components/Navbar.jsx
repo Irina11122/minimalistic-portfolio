@@ -43,7 +43,7 @@ export default function Navbar() {
             onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
             className="md:w-20 md:h-20 md:flex hidden rounded-full"
           >
-            <LuSunMoon size={50} className="m-auto" color="white" />
+            <LuSunMoon size={50} className="m-auto" color="gold" />
           </button>
           <button
             onClick={() => setIsOpen(true)}
@@ -56,29 +56,45 @@ export default function Navbar() {
 
       {isOpen && (
         <div className="">
-          <nav className="fixed bg-dark-purple text-gray-50 playfair-display-sc-regular text-2xl h-screen top-0 right-0 w-screen flex flex-col gap-24 py-20 items-center z-50">
+          <nav className="fixed uppercase bg-dark-purple dark:bg-gray-purple dark:text-2xl text-gray-50 playfair-display-sc-regular text-2xl h-screen top-0 right-0 w-screen flex flex-col gap-24 py-20 items-center z-50 transition-all">
             <FaFaceDizzy
               onClick={() => setIsOpen(false)}
               size={50}
-              className="z-50 absolute top-5 right-5"
+              className="z-50 absolute top-5 right-5 dark:hover:text-gold"
             />
-            <a href="#home" onClick={() => setIsOpen(false)}>
+            <a
+              href="#home"
+              className="dark:hover:text-gold"
+              onClick={() => setIsOpen(false)}
+            >
               Home
             </a>
-            <a href="#projects" onClick={() => setIsOpen(false)}>
+            <a
+              href="#projects"
+              className="dark:hover:text-gold"
+              onClick={() => setIsOpen(false)}
+            >
               Projects
             </a>
-            <a href="#about" onClick={() => setIsOpen(false)}>
+            <a
+              href="#about"
+              className="dark:hover:text-gold"
+              onClick={() => setIsOpen(false)}
+            >
               About
             </a>
-            <a href="#contact" onClick={() => setIsOpen(false)}>
+            <a
+              href="#contact"
+              className="dark:hover:text-gold"
+              onClick={() => setIsOpen(false)}
+            >
               Contact
             </a>
             <button
               onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
               className="md:w-20 md:h-20 md:hidden rounded-full"
             >
-              <LuSunMoon size={50} className="m-auto" color="white" />
+              <LuSunMoon size={50} className="m-auto dark:hover:text-gold" />
             </button>
           </nav>
         </div>

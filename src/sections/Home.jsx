@@ -15,7 +15,7 @@ export default function Home() {
       <div className="bottom-home-line ipad:bottom-44 ipad:w-full"></div>
       {/* <div className="triangle"></div> */}
       <div className="z-10">
-        <h1 className="my-name uppercase md:mb-5 md:ml-0 ml-10 mb-20 md:mt-0 mt-32 comfortaa-700">
+        <h1 className="my-name uppercase md:mb-5 md:ml-0 ml-10 mb-20 md:mt-0 mt-32 comfortaa-700 rounded">
           Hi I am IRINA BOJKOVSKA,
         </h1>
         <h3 className="md:text-3xl text-gray-200 text-end md:mr-0 mr-2 role-text">
@@ -25,14 +25,14 @@ export default function Home() {
       <div className="flex md:flex-row flex-col gap-14 md:items-center md:justify-center text-gray-100 w-full ">
         <div className="md:float-none float-start md:pl-0 pl-3">
           {" "}
-          <button className="md:text-2xl bg-my-purple md:p-10 see-my-work-btn p-5">
+          <button className=" bg-my-purple md:p-10 see-my-work-btn p-5">
             <a href="#projects" className="">
               SEE MY WORK
             </a>
           </button>
         </div>
 
-        <div className="z-10 md:pr-0 pr-3 home-icons">
+        <div className="z-10 md:pr-0 pr-3 home-icons rounded">
           <div className="flex gap-8 md:text-2xl md:p-10 icons-home-div z-10 p-5 float-end">
             <a
               href="https://github.com/Irina11122"

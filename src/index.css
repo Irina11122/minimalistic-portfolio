@@ -46,10 +46,15 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: #5c3ea3;
 }
+
+.dark ::-webkit-scrollbar-track {
+  background: #1f1f1f;
+  border-radius: 10px;
+}
 .dark ::-webkit-scrollbar-thumb {
   background: #e0c36d;
   border-radius: 10px;
-  border: 3px solid #f1f1f1;
+  border: 3px solid #1b1b1b;
 }
 
 .dark ::-webkit-scrollbar-thumb:hover {
@@ -251,6 +256,7 @@ button {
 }
 .see-my-work-btn {
   color: #312f2d;
+  font-size: 1rem;
   box-shadow: inset 4px 4px 8px #8477fa;
   transition: all 0.7s ease-in-out;
   &:hover {
@@ -261,7 +267,7 @@ button {
   background: linear-gradient(280.52deg, #7f7f7f 2.16%, #605c57 94.45%);
   cursor: pointer;
   transition: all 0.5s ease-in-out;
-
+  font-size: 1rem;
   &:hover {
     scale: 1.2;
   }
