@@ -14,7 +14,7 @@ export default function Home() {
       <div className="other-home-line dark:z-20"></div>
       <div className="bottom-home-line ipad:bottom-44 ipad:w-full"></div>
       {/* <div className="triangle"></div> */}
-      <div className="z-20">
+      <div className="z-10">
         <h1 className="my-name uppercase md:mb-5 md:ml-0 ml-10 mb-20 md:mt-0 mt-32 comfortaa-700">
           Hi I am IRINA BOJKOVSKA,
         </h1>
