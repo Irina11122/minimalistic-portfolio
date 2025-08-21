@@ -54,7 +54,7 @@ export default function ProjectsInfo() {
                   <button
                     key={i}
                     style={{ background: info.secondarycolor }}
-                    className="md:p-10 p-2 rounded hover:animate-pulse md:w-w-25% w-24"
+                    className="md:p-10 p-2  hover:animate-pulse md:w-w-25% px-4 py-2 rounded-full"
                   >
                     {item}
                   </button>
