@@ -121,19 +121,19 @@
   {
     "id": 4,
     "title": "ADVICE GENERATOR API",
-    "background": "#ff7e5f",
+    "background": "#1f2632",
     "description": "React app fetching random advice from the Advice Slip API with smooth UI updates.",
     "role": "Frontend Developer",
     "tech": ["REACT", "VITE", "CSS", "ADVICE SLIP API"],
     "category": ["react", "api"],
     "image": "/projects/advice.png",
-    "color": "#012201",
+    "color": "#c8cbcf",
     "features": [
       "Fetches random advice from an external API",
       "Responsive design for all devices",
       "Smooth animations on button click"
     ],
-    "secondarycolor": "#feb47b",
+    "secondarycolor": "#323a49",
     "links": [
       {
         "type": "github",
