@@ -348,6 +348,14 @@ button {
   left: 1%;
   transform: translate(50%, -50%);
 }
+.projects-info-page {
+  font-size: 1.2rem;
+}
+#infopage {
+  letter-spacing: 1px;
+  line-height: 35px;
+  color: #8cddaeac;
+}
 }
 
 @media (max-width: 375px) {
@@ -394,5 +402,7 @@ button {
     clip-path: polygon(0 0, 5% 10%, 90% 9%, 90% 90%, 5% 10%, 0 0, 0 100%);
     rotate: 91deg;
     z-index: 0;
-  }
+  }.projects-info-page {
+  font-size: 0.5rem;
+}
 }

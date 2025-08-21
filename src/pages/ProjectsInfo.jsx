@@ -1,55 +1,60 @@
-import axios from 'axios';
-import { useEffect, useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
-import { IoCaretForwardOutline } from 'react-icons/io5';
+import axios from "axios";
+import { useEffect, useState } from "react";
+import { Link, useParams } from "react-router-dom";
+import { IoCaretForwardOutline } from "react-icons/io5";
 
 export default function ProjectsInfo() {
   const { id } = useParams();
   const [info, setInfo] = useState(null);
 
   useEffect(() => {
-    axios.get('/projectsInfo.json').then((res) => {
+    axios.get("/projectsInfo.json").then((res) => {
       const data = res.data;
       const found = data.find((g) => g.id === parseInt(id));
       setInfo(found);
     });
   }, [id]);
 
-  if (!info) return <div>Loading...</div>;
+  if (!info)
+    return (
+      <div className="h-screen w-screen bg-dark-purple dark:bg-gray-900 text-gray-100 flex justify-center items-center">
+        Loading...
+      </div>
+    );
   return (
     <div
       id="infopage"
       className=""
       style={{ background: info.background, color: info.color }}
     >
-      <header className="flex justify-between bg-white text-gray-600 py-5 px-2 md:mb-20">
+      <header className="flex fixed w-full  justify-between bg-black/70 text-gray-100 py-5 px-2 md:mb-20">
         <h1>{info.title}</h1>
         <button>
           <Link to="/">GO HOME</Link>
         </button>
       </header>
-      <div className="flex flex-col">
+      <div className="flex flex-col pt-24">
         <div className="flex md:flex-row flex-col-reverse md:gap-9 px-5">
-          <div className="md:w-w-50% w-full ">
-            <p className="text-2xl mb-4">{info.description}</p>
+          <div className="md:w-w-50% w-full projects-info-page">
+            <p className="md:text-2xl mb-4">{info.description}</p>
             <p className="text-2xl mb-7">
               Role: <span className="text-neon-purple">{info.role}</span>
             </p>
-            <ul className="text-2xl">
+            <ul className="md:text-2xl">
               {info.features.map((item, i) => (
                 <li key={i} className="flex mb-3">
-                  {' '}
+                  {" "}
                   <IoCaretForwardOutline /> {item}
                 </li>
               ))}
-            </ul>{' '}
-            <div className="flex flex-wrap gap-20 md:my-0 my-20 ">
+            </ul>{" "}
+            <div className="flex flex-wrap md:gap-20 gap-5 md:my-0 my-20 ">
               {info.tech.map((item, i) => {
                 return (
                   <button
                     key={i}
                     style={{ background: info.secondarycolor }}
-                    className="p-10 rounded hover:animate-pulse md:w-w-25%"
+                    className="md:p-10 p-2 rounded hover:animate-pulse md:w-w-25% w-24"
                   >
                     {item}
                   </button>
@@ -63,16 +68,16 @@ export default function ProjectsInfo() {
               alt={info.title}
               className="w-full rounded mb-10"
             />
-            <div>
+            <div className="flex items-center">
               {info.links.map((link, i) => {
                 return (
                   <a
                     key={i}
                     href={link.url}
-                    className={`px-4 py-2 rounded-full ml-4 text-2xl shadow-md hover:scale-105 transition ${
-                      link.type === 'live-demo'
-                        ? 'bg-gray-800 text-white'
-                        : 'bg-pink-500 text-white'
+                    className={`px-4 py-2 rounded-full ml-2 md:text-2xl shadow-md hover:scale-105 transition ${
+                      link.type === "live-demo"
+                        ? "bg-gray-800 text-white"
+                        : "bg-pink-500 text-white"
                     }`}
                   >
                     {link.type}
@@ -81,7 +86,7 @@ export default function ProjectsInfo() {
               })}
             </div>
           </div>
-        </div>{' '}
+        </div>{" "}
       </div>
     </div>
   );
