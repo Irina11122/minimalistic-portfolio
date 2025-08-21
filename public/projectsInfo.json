@@ -6,7 +6,7 @@
     "description": "A modern and dynamic task management web application built with React. Complete user experience with registration, login, task management, and secure JWT authentication.",
     "role": "Frontend Developer",
     "tech": ["REACT", "CSS", "FORMIK", "SWR", "JWT", "REACT-ICONS", "FIGMA"],
-    "category": ["react", "figma"],
+    "category": ["react"],
     "image": "/projects/todo-dashboard.png",
     "features": [
       "Modern and fully responsive design",
@@ -20,10 +20,6 @@
       {
         "type": "github",
         "url": "https://github.com/Irina11122/Finalen-Proekt-React/tree/main"
-      },
-      {
-        "type": "figma",
-        "url": "https://www.figma.com/design/MocZQND83f04dFE4pl46NY/Untitled?node-id=1-2&t=CoArJEjmV3l8gjjx-1"
       },
       {
         "type": "live-demo",
@@ -74,7 +70,7 @@
       },
       {
         "type": "live-demo",
-        "url": "https://irina11122.github.io/Finalen-Proekt-React/"
+        "url": "https://frontend-portfolio-gules.vercel.app/"
       }
     ]
   },

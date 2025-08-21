@@ -29,10 +29,10 @@ export default function Projects() {
         All
       </button>
 
-      <div className="flex md:justify-evenly justify-center md:flex-row md:gap-0 gap-5 mb-20 mt-20 flex-wrap">
+      <div className="flex md:justify-evenly justify-center md:flex-row md:gap-0 gap-5 md:mb-20 mb-8  mt-20 flex-wrap">
         <button
           onClick={() => filterData('html')}
-          className="border border-black md:w-w-25% md:py-10  md:my-5  w-22 p-4 bg-dark-purple golden-color rounded text-2xl"
+          className="border border-black md:w-w-25% md:py-10  md:my-5  w-22 p-2 bg-dark-purple golden-color rounded text-2xl"
         >
           HTML & CSS
         </button>
@@ -41,13 +41,13 @@ export default function Projects() {
             filterData('js');
             filterData('react');
           }}
-          className="border border-black md:w-w-25% md:py-5   w-20 p-4 md:my-5 bg-dark-purple golden-color text-2xl"
+          className="border border-black md:w-w-25% md:py-5 w-22 p-4 md:my-5 bg-dark-purple golden-color text-2xl"
         >
           JS & REACT
         </button>
         <button
           onClick={() => filterData('figma')}
-          className="border border-black md:w-w-25%  w-20 md:py-5 p-4  md:my-5  bg-dark-purple golden-color text-2xl hover:scale-105"
+          className="border border-black md:w-w-25%  w-22 md:py-5 p-4  md:my-5  bg-dark-purple golden-color text-2xl hover:scale-105"
         >
           FIGMA
         </button>
