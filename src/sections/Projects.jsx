@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
-import projectsData from "../../public/projectsInfo.json";
+import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import projectsData from '../../public/projectsInfo.json';
 export default function Projects() {
   const [info, setInfo] = useState([]);
   const [filteredInfo, setFilteredInfo] = useState([]);
@@ -10,7 +10,7 @@ export default function Projects() {
     setFilteredInfo(projectsData);
   }, []);
   const filterData = (category) => {
-    if (category === "All") {
+    if (category === 'All') {
       setFilteredInfo(info);
     } else {
       const filtered = info.filter((f) => f.category.includes(category));
@@ -19,9 +19,11 @@ export default function Projects() {
   };
   return (
     <section id="projects" className="z-10">
-      <h1 className="md:text-4xl uppercase">See my projects</h1>
+      <h1 className="md:text-4xl uppercase pl-8 dark:text-dark-gold">
+        See my projects
+      </h1>
       <button
-        onClick={() => filterData("All")}
+        onClick={() => filterData('All')}
         className="float-end bg-gray-purple text-gray-100 hover:scale-105 transition-all p-5 px-10 border-black border"
       >
         All
@@ -29,23 +31,23 @@ export default function Projects() {
 
       <div className="flex md:justify-evenly justify-center md:flex-row md:gap-0 gap-5 mb-20 mt-20 flex-wrap">
         <button
-          onClick={() => filterData("html")}
-          className="border border-black md:w-w-25% md:py-5  w-22 p-4 bg-dark-purple"
+          onClick={() => filterData('html')}
+          className="border border-black md:w-w-25% md:py-5  w-22 p-4 bg-dark-purple dark:bg-gold"
         >
           HTML & CSS
         </button>
         <button
           onClick={() => {
-            filterData("js");
-            filterData("react");
+            filterData('js');
+            filterData('react');
           }}
-          className="border border-black md:w-w-25% md:py-5   w-20 p-4 bg-dark-purple"
+          className="border border-black md:w-w-25% md:py-5   w-20 p-4 bg-dark-purple dark:bg-gold"
         >
           JS & REACT
         </button>
         <button
-          onClick={() => filterData("figma")}
-          className="border border-black md:w-w-25%  w-20 md:py-5 p-4 bg-dark-purple"
+          onClick={() => filterData('figma')}
+          className="border border-black md:w-w-25%  w-20 md:py-5 p-4 bg-dark-purple dark:bg-gold"
         >
           FIGMA
         </button>
@@ -58,9 +60,9 @@ export default function Projects() {
               className="md:w-w-30%  bg-red-100 relative mb-20 cards"
             >
               <h1 className="z-20 absolute text-2xl top-3 left-10 text-gray-50">
-                {" "}
-                {info.title}{" "}
-              </h1>{" "}
+                {' '}
+                {info.title}{' '}
+              </h1>{' '}
               <div className="absolute projects-card md:h-80 z-10 top-0 blur"></div>
               <img
                 src={info.image}

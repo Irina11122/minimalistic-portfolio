@@ -1,31 +1,31 @@
-import { useEffect, useState } from "react";
-import { LuSunMoon } from "react-icons/lu";
-import useLocalStorage from "../hook/useLocalStorage";
-import { FaBars, FaXingSquare } from "react-icons/fa";
-import { FaFaceDizzy } from "react-icons/fa6";
+import { useEffect, useState } from 'react';
+import { LuSunMoon } from 'react-icons/lu';
+import useLocalStorage from '../hook/useLocalStorage';
+import { FaBars, FaXingSquare } from 'react-icons/fa';
+import { FaFaceDizzy } from 'react-icons/fa6';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const [theme, setTheme] = useLocalStorage("dark", "theme");
+  const [theme, setTheme] = useLocalStorage('dark', 'theme');
   useEffect(() => {
     const root = window.document.documentElement;
-    if (theme === "dark") {
-      root.classList.add("dark");
+    if (theme === 'dark') {
+      root.classList.add('dark');
     } else {
-      root.classList.remove("dark");
+      root.classList.remove('dark');
     }
   }, [theme]);
   useEffect(() => {
     if (isOpen) {
-      document.body.style.overflow = "hidden";
+      document.body.style.overflow = 'hidden';
     } else {
-      document.body.style.overflow = "auto";
+      document.body.style.overflow = 'auto';
     }
   }, [isOpen]);
   return (
     <div className="flex justify-center relative">
       <header className="fixed md:w-w-90% w-full bg-my-purple flex justify-between h-20 items-center  z-20 md:top-5 top-2 dark-header">
-        <h1 className="w-44 text-start text-dark-purple dark:text-gold text-2xl flex items-center justify-center">
+        <h1 className="w-52 text-start uppercase text-dark-purple dark:text-gold text-2xl flex items-center justify-center">
           <div className="flex flex-col justify-center items-center mx-4">
             <div className="line"></div>
             <div className="circle"></div>
@@ -40,7 +40,7 @@ export default function Navbar() {
         </nav>
         <div>
           <button
-            onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+            onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
             className="md:w-20 md:h-20 md:flex hidden rounded-full"
           >
             <LuSunMoon size={50} className="m-auto" color="white" />
@@ -75,7 +75,7 @@ export default function Navbar() {
               Contact
             </a>
             <button
-              onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+              onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
               className="md:w-20 md:h-20 md:hidden rounded-full"
             >
               <LuSunMoon size={50} className="m-auto" color="white" />

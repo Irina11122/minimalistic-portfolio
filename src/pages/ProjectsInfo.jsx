@@ -1,14 +1,14 @@
-import axios from "axios";
-import { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
-import { IoCaretForwardOutline } from "react-icons/io5";
+import axios from 'axios';
+import { useEffect, useState } from 'react';
+import { Link, useParams } from 'react-router-dom';
+import { IoCaretForwardOutline } from 'react-icons/io5';
 
 export default function ProjectsInfo() {
   const { id } = useParams();
   const [info, setInfo] = useState(null);
 
   useEffect(() => {
-    axios.get("/projectsInfo.json").then((res) => {
+    axios.get('/projectsInfo.json').then((res) => {
       const data = res.data;
       const found = data.find((g) => g.id === parseInt(id));
       setInfo(found);
@@ -43,18 +43,18 @@ export default function ProjectsInfo() {
             <ul className="md:text-2xl">
               {info.features.map((item, i) => (
                 <li key={i} className="flex mb-3">
-                  {" "}
+                  {' '}
                   <IoCaretForwardOutline /> {item}
                 </li>
               ))}
-            </ul>{" "}
+            </ul>{' '}
             <div className="flex flex-wrap md:gap-20 gap-8 md:my-0 my-20 justify-center">
               {info.tech.map((item, i) => {
                 return (
                   <button
                     key={i}
                     style={{ background: info.secondarycolor }}
-                    className="md:p-10 p-2  hover:animate-pulse md:w-w-25% px-4 py-2 rounded-full"
+                    className="md:p-5 p-2  hover:animate-pulse md:w-w-25% px-4 py-2 rounded-full"
                   >
                     {item}
                   </button>
@@ -75,9 +75,9 @@ export default function ProjectsInfo() {
                     key={i}
                     href={link.url}
                     className={`px-4 py-2 rounded-full ml-2 md:text-2xl shadow-md hover:scale-105 transition ${
-                      link.type === "live-demo"
-                        ? "bg-gray-800 text-white"
-                        : "bg-pink-500 text-white"
+                      link.type === 'live-demo'
+                        ? 'bg-gray-800 text-white'
+                        : 'bg-pink-500 text-white'
                     }`}
                   >
                     {link.type}
@@ -86,7 +86,7 @@ export default function ProjectsInfo() {
               })}
             </div>
           </div>
-        </div>{" "}
+        </div>{' '}
       </div>
     </div>
   );
