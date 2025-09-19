@@ -460,5 +460,29 @@
         "url": "https://www.behance.net/gallery/234982773/LUMINA-Skincare-Logo(Concept-Practice-Project)"
       }
     ]
+  },
+  {
+    "id": 17,
+    "title": "Pulse Audio – Minimal Logo for Headphones (Concept / Practice Project)",
+    "background": "#fff",
+    "description": "A minimal logo design for Pulse Audio, a fictional headphones brand. The wordmark uses Montserrat for a clean and professional look, while minimal sound wave lines are placed above the letters to symbolize audio frequencies, sound clarity, and rhythm, reinforcing the brand’s identity in the audio technology space.",
+    "role": "Graphic Designer",
+    "tech": ["ILLUSTRATOR"],
+    "category": ["logo design", "figma", "adobe"],
+    "image": "/logos/pulse audio.png",
+    "color": "#211716",
+    "features": [
+      "Modern Montserrat wordmark",
+      "Sound wave lines integrated above letters",
+      "Monochrome palette with optional accent color",
+      "Scalable vector design suitable for headphones, packaging, and digital platforms"
+    ],
+    "secondarycolor": "#D9C580",
+    "links": [
+      {
+        "type": "behance",
+        "url": "https://www.behance.net/gallery/234983463/Pulse-Audio-Logo-(Concept-Practice-Project)"
+      }
+    ]
   }
 ]
