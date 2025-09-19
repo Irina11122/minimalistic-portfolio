@@ -436,5 +436,29 @@
         "url": "https://www.figma.com/proto/cXDeBWa36Xopj0PkZhKEYK/UrbanBrew-Coffee?node-id=3-22&t=odelq2kaOENj6E6V-1&starting-point-node-id=3%3A22&show-proto-sidebar=1&scaling=scale-down&content-scaling=fixed"
       }
     ]
+  },
+  {
+    "id": 16,
+    "title": "LUMINA SKINCARE LOGO",
+    "background": "#fff",
+    "description": "A minimal logo design for Lumina Skincare, combining modern typography with a skincare-inspired icon. The wordmark uses Montserrat for a clean and professional look, while above the letter 'U' a dropper illustration creates the impression of a serum drop, highlighting the brand’s focus on natural and effective skincare.",
+    "role": "Graphic Designer",
+    "tech": ["ILLUSTRATOR"],
+    "category": ["logo design", "figma", "adobe"],
+    "image": "/logos/logo lumina.png",
+    "color": "#211716",
+    "features": [
+      "Modern Montserrat wordmark",
+      "Dropper illustration integrated above the U",
+      "Nature-inspired pastel palette",
+      "Scalable design for packaging and digital use"
+    ],
+    "secondarycolor": "#D9C580",
+    "links": [
+      {
+        "type": "behance",
+        "url": "https://www.behance.net/gallery/234982773/LUMINA-Skincare-Logo(Concept-Practice-Project)"
+      }
+    ]
   }
 ]

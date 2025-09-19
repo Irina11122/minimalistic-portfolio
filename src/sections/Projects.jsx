@@ -49,7 +49,7 @@ export default function Projects() {
           onClick={() => filterData('figma')}
           className="border border-black md:w-w-25%  w-22 md:py-5 p-4  md:my-5  bg-dark-purple golden-color text-2xl hover:scale-105"
         >
-          FIGMA
+          FIGMA & ADOBE
         </button>
       </div>
       <div className="flex md:flex-row flex-col flex-wrap gap-10 p-10">
