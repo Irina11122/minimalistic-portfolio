@@ -1,4 +1,3 @@
-import { video } from 'framer-motion/client';
 import { useState } from 'react';
 
 const sections = [
